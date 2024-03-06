@@ -1,0 +1,183 @@
+[
+    {
+      "pk": 1,
+      "model": "designs.design",
+      "fields": {
+        "name": "Art background",
+        "description": "Art background",
+        "category": 1,
+        "image": "D001.jpg"
+      }
+    },
+    {
+        "pk": 2,
+        "model": "designs.design",
+        "fields": {
+          "name": "Geometric backround",
+          "description": "Geometric backround",
+          "category": 1,
+          "image": "D002.jpg"
+        }
+      },
+      {
+        "pk": 3,
+        "model": "designs.design",
+        "fields": {
+          "name": "Art backround",
+          "description": "Art backround",
+          "category": 1,
+          "image": "D003.jpg"
+        }
+      },
+      {
+        "pk": 4,
+        "model": "designs.design",
+        "fields": {
+          "name": "Art backround",
+          "description": "Art backround",
+          "category": 1,
+          "image": "D004.jpg"
+        }
+      },
+      {
+        "pk": 5,
+        "model": "designs.design",
+        "fields": {
+          "name": "Art backround",
+          "description": "Art backround",
+          "category": 1,
+          "image": "D005.jpg"
+        }
+      },
+      {
+        "pk": 6,
+        "model": "designs.design",
+        "fields": {
+          "name": "Art backround",
+          "description": "Art backround",
+          "category": 1,
+          "image": "D006.jpg"
+        }
+      },
+      {
+        "pk": 7,
+        "model": "designs.design",
+        "fields": {
+          "name": "Illustrations",
+          "description": "Ilustrations",
+          "category": 2,
+          "image": "I001.jpg"
+        }
+      },  
+      {
+        "pk": 8,
+        "model": "designs.design",
+        "fields": {
+          "name": "Illustrations",
+          "description": "Ilustrations",
+          "category": 2,
+          "image": "I002.jpg"
+        }
+      },
+      {
+        "pk": 9,
+        "model": "designs.design",
+        "fields": {
+          "name": "Illustrations",
+          "description": "Ilustrations",
+          "category": 2,
+          "image": "I003.jpg"
+        }
+      },
+      {
+        "pk": 10,
+        "model": "designs.design",
+        "fields": {
+          "name": "Illustrations",
+          "description": "Ilustrations",
+          "category": 2,
+          "image": "I004.jpg"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "designs.design",
+        "fields": {
+          "name": "Illustrations",
+          "description": "Ilustrations",
+          "category": 2,
+          "image": "I005.jpg"
+        }
+      },
+      {
+        "pk": 12,
+        "model": "designs.design",
+        "fields": {
+          "name": "Illustrations",
+          "description": "Ilustrations",
+          "category": 2,
+          "image": "I006.jpg"
+        }
+      },
+      {
+        "pk": 13,
+        "model": "designs.design",
+        "fields": {
+          "name": "Instagram",
+          "description": "Instagram",
+          "category": 2,
+          "image": "C001.jpg"
+        }
+      },
+      {
+        "pk": 14,
+        "model": "designs.design",
+        "fields": {
+          "name": "LinkedIn",
+          "description": "LinkedIn",
+          "category": 2,
+          "image": "C002.jpg"
+        }
+      },
+      {
+        "pk": 15,
+        "model": "designs.design",
+        "fields": {
+          "name": "TikTok",
+          "description": "TikTok",
+          "category": 2,
+          "image": "C003.jpg"
+        }
+      },
+      {
+        "pk": 16,
+        "model": "designs.design",
+        "fields": {
+          "name": "Spotify",
+          "description": "Spotify",
+          "category": 2,
+          "image": "C004.jpg"
+        }
+      },
+      {
+        "pk": 17,
+        "model": "designs.design",
+        "fields": {
+          "name": "Twitter",
+          "description": "Twitter",
+          "category": 2,
+          "image": "C005.jpg"
+        }
+      },
+      {
+        "pk": 18,
+        "model": "designs.design",
+        "fields": {
+          "name": "YouTube",
+          "description": "YouTube",
+          "category": 2,
+          "image": "C006.jpg"
+        }
+      }
+
+  ]

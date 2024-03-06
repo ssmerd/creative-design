@@ -1,0 +1,26 @@
+[
+    {
+      "pk": 1,
+      "model": "designs.category",
+      "fields": {
+        "name": "graphics",
+        "friendly_name": "Graphics"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "designs.category",
+      "fields": {
+        "name": "illustrations",
+        "friendly_name": "Illustrations"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "designs.category",
+      "fields": {
+        "name": "icons",
+        "friendly_name": "Icons"
+       }
+    }
+  ]
