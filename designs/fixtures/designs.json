@@ -125,7 +125,7 @@
         "fields": {
           "name": "Instagram",
           "description": "Instagram",
-          "category": 2,
+          "category": 3,
           "image": "C001.jpg"
         }
       },
@@ -135,7 +135,7 @@
         "fields": {
           "name": "LinkedIn",
           "description": "LinkedIn",
-          "category": 2,
+          "category": 3,
           "image": "C002.jpg"
         }
       },
@@ -145,7 +145,7 @@
         "fields": {
           "name": "TikTok",
           "description": "TikTok",
-          "category": 2,
+          "category": 3,
           "image": "C003.jpg"
         }
       },
@@ -155,7 +155,7 @@
         "fields": {
           "name": "Spotify",
           "description": "Spotify",
-          "category": 2,
+          "category": 3,
           "image": "C004.jpg"
         }
       },
@@ -165,7 +165,7 @@
         "fields": {
           "name": "Twitter",
           "description": "Twitter",
-          "category": 2,
+          "category": 3,
           "image": "C005.jpg"
         }
       },
@@ -175,7 +175,7 @@
         "fields": {
           "name": "YouTube",
           "description": "YouTube",
-          "category": 2,
+          "category": 3,
           "image": "C006.jpg"
         }
       }

@@ -1,0 +1,3 @@
+-- SQLite
+DELETE FROM DESIGNS_DESIGN;
+SELECT * FROM designs_design;
