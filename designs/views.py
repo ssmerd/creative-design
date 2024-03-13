@@ -1,6 +1,10 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect, reverse, get_list_or_404
 from .models import Design
+from django.contrib import messages
 from django.conf import settings
+from django.db.models import Q
+
+
 
 def all_designs(request):
     """
@@ -8,10 +12,22 @@ def all_designs(request):
     """
 
     designs = Design.objects.all()
+    query = None
+
+    if request.GET:
+        if 'q' in request.GET:
+            query = request.GET['q']
+            if not query:
+                messages.error(request, "You didn't enter any search criteria")
+                return redirect(reverse('designs'))
+            queries = Q(name__contains=query) | Q(description__icontains=query)
+            designs = designs.filter(queries)
+
 
     context = {
         'designs': designs,
-        'MEDIA_URL': settings.MEDIA_URL
+        'MEDIA_URL': settings.MEDIA_URL,
+        'search_term': query
     }
 
     return render(request ,"designs/designs.html", context)
