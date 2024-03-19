@@ -1,11 +1,14 @@
 asgiref==3.7.2
 certifi==2024.2.2
 charset-normalizer==3.3.2
+crispy-bootstrap4==2024.1
 defusedxml==0.7.1
-Django==3.2.24
+Django==4.2.11
 django-allauth==0.41.0
+django-crispy-forms==2.1
 idna==3.6
 oauthlib==3.2.2
+pillow==10.2.0
 python3-openid==3.2.0
 pytz==2024.1
 requests==2.31.0

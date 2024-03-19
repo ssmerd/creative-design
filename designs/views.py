@@ -36,7 +36,6 @@ def all_designs(request):
         'designs': designs,
         'MEDIA_URL': settings.MEDIA_URL,
         'search_term': query,
-        'current_categories': categories,
     }
 
     return render(request ,"designs/designs.html", context)

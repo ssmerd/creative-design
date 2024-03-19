@@ -44,10 +44,13 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'home',
     'designs',
-
+    'crispy_forms',
 ]
 
 SITE_ID = 1
+
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

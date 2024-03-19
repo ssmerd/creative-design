@@ -178,6 +178,66 @@
           "category": 3,
           "image": "C006.jpg"
         }
+      },
+      {
+        "pk": 19,
+        "model": "designs.design",
+        "fields": {
+          "name": "Poster",
+          "description": "Poster",
+          "category": 4,
+          "image": "P001.jpg"
+        }
+      },
+      {
+        "pk": 20,
+        "model": "designs.design",
+        "fields": {
+          "name": "Poster",
+          "description": "Poster",
+          "category": 4,
+          "image": "P002.jpg"
+        }
+      },
+      {
+        "pk": 21,
+        "model": "designs.design",
+        "fields": {
+          "name": "Poster",
+          "description": "Poster",
+          "category": 4,
+          "image": "P003.jpg"
+        }
+      },
+      {
+        "pk": 22,
+        "model": "designs.design",
+        "fields": {
+          "name": "Poster",
+          "description": "Poster",
+          "category": 4,
+          "image": "P004.jpg"
+        }
+      },
+      {
+        "pk": 23,
+        "model": "designs.design",
+        "fields": {
+          "name": "Poster",
+          "description": "Poster",
+          "category": 4,
+          "image": "P005.jpg"
+        }
+      },
+      {
+        "pk": 24,
+        "model": "designs.design",
+        "fields": {
+          "name": "Poster",
+          "description": "Poster",
+          "category": 4,
+          "image": "P006.jpg"
+        }
       }
 
   ]

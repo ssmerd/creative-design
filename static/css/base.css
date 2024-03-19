@@ -175,6 +175,9 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
+.order-details {
+    font-size: 2rem;
+}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

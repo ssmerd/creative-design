@@ -22,5 +22,13 @@
         "name": "icons",
         "friendly_name": "Icons"
        }
+    },
+    {
+      "pk": 4,
+      "model": "designs.category",
+      "fields": {
+        "name": "posters",
+        "friendly_name": "Posters"
+       }
     }
   ]
