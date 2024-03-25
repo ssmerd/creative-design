@@ -10,7 +10,10 @@ body {
     font-family: 'Lato';
 }
 
-  
+.form-width {
+    width: 40%;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -185,6 +188,7 @@ input[name='q']::placeholder {
   .container {
     max-width: 80%;
   }
+
 }
 
 /* Allauth form formatting */
@@ -283,6 +287,17 @@ input[name='q']::placeholder {
     .header-container {
         padding-top: 164px;
     }
+
+    .form-width {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .form-width {
+        width: 40%;
+    }
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
@@ -329,5 +344,9 @@ input[name='q']::placeholder {
 
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
+    }
+
+    .form-width {
+        width: 70%;
     }
 }

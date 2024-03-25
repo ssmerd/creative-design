@@ -26,11 +26,9 @@ def all_designs(request):
             query = request.GET['q']
             if not query:
                 messages.error(request, "You didn't enter any search criteria")
-                return redirect(reverse('designs'))
+                return redirect(reverse('home'))
             queries = Q(name__contains=query) | Q(description__icontains=query)
             designs = designs.filter(queries)
-           
-
 
     context = {
         'designs': designs,
