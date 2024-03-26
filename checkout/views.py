@@ -1,3 +1,15 @@
 from django.shortcuts import render
 
-# Create your views here.
+def checkout(request):
+    """
+        A view to return the index page
+    """
+
+
+    template = 'checkout/checkout_details.html'
+    
+    context = {
+        'quote': request.session['quote'],
+    }
+
+    return render(request, template, context)

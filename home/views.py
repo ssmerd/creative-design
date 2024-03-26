@@ -25,9 +25,22 @@ def add_quote(request):
         form = QuoteForm(request.POST)
         if form.is_valid():
             quote = form.cleaned_data
+            price = calculate_price(quote)
             context = {
                 'quote': quote,
+                'price': price
             }
+
+            quote = {
+                'category': quote['category'].name,
+                'name': quote['name'],
+                'description': quote['description'],
+                'size': quote['size'],
+                'price': price
+            }
+
+            request.session['quote'] = quote
+
             messages.success(request, "You have added a quote")
             return render(request, "home/quote_detail.html", context)
         else:
@@ -45,13 +58,18 @@ def add_quote(request):
 
     return render(request, template, context)
 
-# def quote_detail(request):
-#     """ A view to show individual quote details """
+def calculate_price(quote):
+    category = quote['category']
 
-#     context = {
-#         'quote': quote,
-#     }
+    total_price = 0
 
-#     template = 'home/quote_detail.html'
+    if category.name.upper() == "graphics".upper():
+        total_price = total_price + 100
+    if category.name.upper() == "illustrations".upper():
+        total_price = total_price +  120
+    if category.name.upper() == "icon".upper():
+        total_price = total_price +  70
+    if category.name.upper() == "graphics".upper():
+        total_price = total_price +  150
 
-#     return render(request, template, context)
+    return total_price

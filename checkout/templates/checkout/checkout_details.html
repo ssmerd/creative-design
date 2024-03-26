@@ -17,16 +17,15 @@
                 <div class="card border-dark w-75" style="max-width: 500px">
                     <div class="card text-dark">
                         <div class="card-header">
-                            <strong>Order Design</strong>
+                            <strong>Checkout</strong>
                         </div>
                         <div class="card-body">
                         <h5 class="card-title text-uppercase">{{ quote.category }}</h5>
                         <p class="card-text">Description: {{ quote.description }}</p>
                         <p class="card-text">Quote size: {{ quote.size }}</p>
-                        <p class="card-text">Total price: {{ price }} EUR</p>
-                        {% comment %} <p class="card-text">DEBUG: Session price: {{ request.session.price }} EUR </p> {% endcomment %}
+                        <p class="card-text">Total price: {{ quote.price }} EUR</p>
                         <a href="{% url 'home' %}" class="btn btn-outline-black rounded-0">Cancel</a>
-                        <a href="{% url 'checkout' %}" class="btn btn-black rounded-0">Buy</a>
+                        {% comment %} <a href="{% url 'checkout' %}" class="btn btn-black rounded-0">Buy</a> {% endcomment %}
                         </div>
                     </div>
                 </div>
