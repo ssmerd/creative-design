@@ -26,12 +26,8 @@ def add_quote(request):
         if form.is_valid():
             quote = form.cleaned_data
             price = calculate_price(quote)
+    
             context = {
-                'quote': quote,
-                'price': price
-            }
-
-            quote = {
                 'category': quote['category'].name,
                 'name': quote['name'],
                 'description': quote['description'],
@@ -39,7 +35,7 @@ def add_quote(request):
                 'price': price
             }
 
-            request.session['quote'] = quote
+            request.session['quote'] = context
 
             messages.success(request, "You have added a quote")
             return render(request, "home/quote_detail.html", context)
@@ -65,11 +61,11 @@ def calculate_price(quote):
 
     if category.name.upper() == "graphics".upper():
         total_price = total_price + 100
-    if category.name.upper() == "illustrations".upper():
+    elif category.name.upper() == "illustrations".upper():
         total_price = total_price +  120
-    if category.name.upper() == "icon".upper():
+    elif category.name.upper() == "icon".upper():
         total_price = total_price +  70
-    if category.name.upper() == "graphics".upper():
+    elif category.name.upper() == "graphics".upper():
         total_price = total_price +  150
 
     return total_price

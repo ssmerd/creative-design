@@ -20,11 +20,10 @@
                             <strong>Order Design</strong>
                         </div>
                         <div class="card-body">
-                        <h5 class="card-title text-uppercase">{{ quote.category }}</h5>
-                        <p class="card-text">Description: {{ quote.description }}</p>
-                        <p class="card-text">Quote size: {{ quote.size }}</p>
+                        <h5 class="card-title text-uppercase">{{ category }}</h5>
+                        <p class="card-text">Description: {{ description }}</p>
+                        <p class="card-text">Quote size: {{ size }}</p>
                         <p class="card-text">Total price: {{ price }} EUR</p>
-                        {% comment %} <p class="card-text">DEBUG: Session price: {{ request.session.price }} EUR </p> {% endcomment %}
                         <a href="{% url 'home' %}" class="btn btn-outline-black rounded-0">Cancel</a>
                         <a href="{% url 'checkout' %}" class="btn btn-black rounded-0">Buy</a>
                         </div>

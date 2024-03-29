@@ -10,13 +10,11 @@ class Order(models.Model):
     # user_profile = models.ForeignKey(UserProfile, on_delete=models.SET_NULL,
     #                                  null=True, blank=True,
     #                                  related_name='orders')
-    full_name = models.CharField(max_length=50, null=False, blank=False)
+    name  = models.CharField(max_length=50, null=False, blank=False)
     email = models.EmailField(max_length=254, null=False, blank=False)
-    phone_number = models.CharField(max_length=20, null=False, blank=False)
-   
-    date = models.DateTimeField(auto_now_add=True)
-    
-    order_total = models.DecimalField(max_digits=10, decimal_places=2,
+    phone = models.CharField(max_length=20, null=False, blank=False)
+    date  = models.DateTimeField(auto_now_add=True)
+    total = models.DecimalField(max_digits=10, decimal_places=2,
                                       null=False, default=0)
     
     # original_bag = models.TextField(null=False, blank=False, default='')
