@@ -16,11 +16,11 @@ class OrderForm(forms.ModelForm):
         placeholders = {
             'name': 'Full Name',
             'email': 'Email Address',
-            'phone_number': 'Phone Number',
+            'phone': 'Phone Number',
         }
 
         self.fields['name'].widget.attrs['autofocus'] = True
-        
+
         for field in self.fields:
         
             if self.fields[field].required:

@@ -1,17 +1,30 @@
 from django import forms
-from .models import Quote, Category
 
-class QuoteForm(forms.ModelForm):
+CATEGORIES  = [
+        ("Graphics", "Graphics"),
+        ("Illustrations", "Illustrations"),
+        ("Icons", "Icons"),
+    ]
+         
+DESIGN_SIZES  = [
+        ("Instagram", "Instagram"),
+        ("Facebook", "Facebook"),
+        ("X", "X"),
+        ("YouTube", "YouTube"),
+        ("Pinterest", "Pinterest"),
+        ("Snapchat", "Snapchat"),
+        ("Custom", "Custom"),
+    ]
 
-    class Meta:
-        model = Quote
-        fields = '__all__'
+class QuoteForm(forms.Form):
+    
+    category = forms.ChoiceField(choices=CATEGORIES) 
+    name = forms.CharField(max_length=254)
+    description = forms.CharField(max_length=254)
+    size = forms.ChoiceField(choices=DESIGN_SIZES)
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        categories = Category.objects.all()
-        friendly_names = [(c.id, c.get_friendly_name()) for c in categories]
 
-        self.fields['category'].choices = friendly_names
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'border-black rounded-0'

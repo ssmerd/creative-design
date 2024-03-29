@@ -4,12 +4,22 @@ from django.db import models
 from django.db.models import Sum
 from django.conf import settings
 
+DESIGN_SIZES  = [
+        ("Instagram", "Instagram"),
+        ("Facebook", "Facebook"),
+        ("X", "X"),
+        ("YouTube", "YouTube"),
+        ("Pinterest", "Pinterest"),
+        ("Snapchat", "Snapchat"),
+        ("Custom", "Custom"),
+    ]
 
 class Order(models.Model):
+   
     order_number = models.CharField(max_length=32, null=False, editable=False)
-    # user_profile = models.ForeignKey(UserProfile, on_delete=models.SET_NULL,
-    #                                  null=True, blank=True,
-    #                                  related_name='orders')
+    category = models.TextField(max_length=254)
+    description = models.TextField(max_length=254)
+    size = models.CharField(max_length=32, choices=DESIGN_SIZES)
     name  = models.CharField(max_length=50, null=False, blank=False)
     email = models.EmailField(max_length=254, null=False, blank=False)
     phone = models.CharField(max_length=20, null=False, blank=False)
