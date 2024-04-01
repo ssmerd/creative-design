@@ -8,6 +8,9 @@ def checkout(request):
         A view to return the index page
     """
 
+    stripe_public_key = 'pk_live_51P0kUf2MqiGwcstyNOY8fysCeHRmBWkNlxiETVhKHWgOZE23DFawGXqnwHJLp4InQjsXmqNqzNhovytucKZXw91200cqNVfTsb'
+    stripe_secret_key = 'test'
+
     quote = request.session.get('quote', {}) 
     if not quote:
         messages.error('There is no quote at the moment')
@@ -20,6 +23,8 @@ def checkout(request):
     context = {
         'form': form,
         'quote': quote,
+        'stripe_public_key': stripe_public_key,
+        'client_secret': 'test client secret',
     }
 
     return render(request, template, context)

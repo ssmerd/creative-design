@@ -32,7 +32,7 @@ def all_designs(request):
 
     context = {
         'designs': designs,
-        'MEDIA_URL': settings.MEDIA_URL,
+        # 'MEDIA_URL': settings.MEDIA_URL,
         'search_term': query,
     }
 
