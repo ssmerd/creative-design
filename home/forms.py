@@ -20,7 +20,7 @@ class QuoteForm(forms.Form):
     
     category = forms.ChoiceField(choices=CATEGORIES) 
     name = forms.CharField(max_length=254)
-    description = forms.CharField(widget=forms.Textarea(),max_length=254)
+    description = forms.CharField(widget=forms.Textarea(),max_length=1024)
     size = forms.ChoiceField(choices=DESIGN_SIZES)
 
     def __init__(self, *args, **kwargs):

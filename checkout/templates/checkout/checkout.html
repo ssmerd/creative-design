@@ -24,19 +24,17 @@
                             <strong>Order details</strong>
                         </div>
                         <div class="card-body">
-                        <h5 class="card-title text-uppercase">{{ quote.category }}</h5>
-                        <p class="card-text">Description: {{ quote.description }}</p>
-                        <p class="card-text">Quote size: {{ quote.size }}</p>
-                        <p class="card-text">Total price: {{ quote.price }} EUR</p>
-                        {% comment %} <a href="{% url 'home' %}" class="btn btn-outline-black rounded-0">Cancel</a>
-            {% endcomment %}
+                            <h5 class="card-title text-uppercase">{{ quote.category }}</h5>
+                            <p class="card-text">Description: {{ quote.description }}</p>
+                            <p class="card-text">Quote size: {{ quote.size }}</p>
+                            <p class="card-text">Total price: {{ quote.price }} EUR</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="col-12" style="margin: auto;max-width: 500px">
+        <div class="col-12" style="padding: 0;margin: auto;max-width: 500px">
 
             <form action="{% url 'checkout' %}" method="POST" id="payment-form">
                 {% csrf_token %}
@@ -69,14 +67,19 @@
                     <input type="hidden" value="{{ client_secret }}" name="client_secret">
                 </fieldset>
 
+                
                 <div class="submit-button text-right mt-5 mb-2">                    
                    
+                    <a href="{% url 'home' %}" class="btn btn-outline-black rounded-0">Cancel</a>
+                    
                     <button id="submit-button" class="btn btn-black rounded-0">
                         <span class="font-weight-bold">Complete Order</span>
                         <span class="icon">
                             <i class="fas fa-lock"></i>
                         </span>
                     </button>
+                    
+
                     <p class="small text-danger my-0">
                         <span class="icon">
                             <i class="fas fa-exclamation-circle"></i>

@@ -61,7 +61,7 @@ def calculate_price(quote):
         total_price = total_price + 100
     elif category.upper() == "illustrations".upper():
         total_price = total_price +  120
-    elif category.upper() == "icon".upper():
+    elif category.upper() == "icons".upper():
         total_price = total_price +  70
     elif category.upper() == "graphics".upper():
         total_price = total_price +  150
