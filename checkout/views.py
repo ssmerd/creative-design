@@ -59,7 +59,7 @@ def checkout(request):
 
             pid = request.POST.get('client_secret').split('_secret')[0]
             order.stripe_pid = pid
-            order.original_quote = json.dumps(quote)
+            # order.original_quote = json.dumps(quote)
             order.save()
             # Save the info to the user's profile if all is well
             request.session['save_info'] = 'save-info' in request.POST
