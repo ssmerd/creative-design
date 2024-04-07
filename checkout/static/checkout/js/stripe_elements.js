@@ -61,6 +61,9 @@ form.addEventListener('submit', function(ev) {
         'csrfmiddlewaretoken': csrfToken,
         'client_secret': clientSecret,
         'save_info': saveInfo,
+        'name': $.trim(form.name.value),
+        'phone': $.trim(form.phone.value),
+        'email': $.trim(form.email.value),
     };
     
     var url = '/checkout/cache_checkout_data/';
@@ -74,7 +77,7 @@ form.addEventListener('submit', function(ev) {
                     phone: $.trim(form.phone.value),
                     email: $.trim(form.email.value),
                 }
-            },
+            }
         }).then(function(result) {
             if (result.error) {
                 var errorDiv = document.getElementById('card-errors');

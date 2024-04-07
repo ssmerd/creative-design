@@ -23,9 +23,11 @@ def cache_checkout_data(request):
         pid = request.POST.get('client_secret').split('_secret')[0]
         stripe.api_key = settings.STRIPE_SECRET_KEY
         stripe.PaymentIntent.modify(pid, metadata={
-            # 'quote': json.dumps(request.session.get('quote', {})),
             'save_info': request.POST.get('save_info'),
             'username': request.user,
+            'name': request.POST.get('name'),
+            'email': request.POST.get('email'),
+            'phone': request.POST.get('phone'),
         })
         return HttpResponse(status=200)
     except Exception as e:
