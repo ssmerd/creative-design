@@ -9,6 +9,7 @@ from .models import Order
 
 import json
 import time
+import stripe
 
 
 class StripeWH_Handler:
@@ -50,10 +51,23 @@ class StripeWH_Handler:
         
         pid = intent.id
         save_info = intent.metadata.save_info
-        name = intent.metadata.name
-        email = intent.metadata.email
-        phone = intent.metadata.phone
+        quote = json.loads(intent.metadata.quote)
+
         total = round(intent.amount / 100, 2)
+
+        stripe_charge = stripe.Charge.retrieve(
+            intent.latest_charge
+        )
+
+        billing_details = stripe_charge.billing_details 
+
+        name = billing_details.name
+        email = billing_details.email
+        phone = billing_details.phone
+        category = quote["category"]
+        description = quote["description"]
+        size = quote["size"]
+        total = round(stripe_charge.amount / 100, 2) 
 
         # Clean data in the shipping details
         # for field, value in shipping_details.address.items():
@@ -83,6 +97,9 @@ class StripeWH_Handler:
                     name__iexact=name,
                     email__iexact=email,
                     phone__iexact=phone,
+                    category__iexact=category,
+                    description__iexact=description,
+                    size__iexact=size,
                     total=total,
                     stripe_pid=pid,
                 )
@@ -105,9 +122,12 @@ class StripeWH_Handler:
                     # user_profile=profile,
                     email=email,
                     phone=phone,
-                    stripe_pid=pid,
-                )
-               
+                    category=category,
+                    description=description,
+                    size=size,
+                    total=total,
+                    stripe_pid=pid
+                )             
             except Exception as e:
                 if order:
                     order.delete()

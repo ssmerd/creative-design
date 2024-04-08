@@ -18,7 +18,7 @@ class Order(models.Model):
    
     order_number = models.CharField(max_length=32, null=False, editable=False)
     category = models.TextField(max_length=254, null=False, blank=True)
-    description = models.TextField(max_length=1024, null=False, blank=True)
+    description = models.TextField(max_length=254, null=False, blank=True)
     size = models.CharField(max_length=32, null=False, blank=True, choices=DESIGN_SIZES)
     name  = models.CharField(max_length=50, null=False, blank=False)
     email = models.EmailField(max_length=254, null=False, blank=False)

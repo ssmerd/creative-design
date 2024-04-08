@@ -60,10 +60,7 @@ form.addEventListener('submit', function(ev) {
     var postData = {
         'csrfmiddlewaretoken': csrfToken,
         'client_secret': clientSecret,
-        'save_info': saveInfo,
-        'name': $.trim(form.name.value),
-        'phone': $.trim(form.phone.value),
-        'email': $.trim(form.email.value),
+        'save_info': saveInfo
     };
     
     var url = '/checkout/cache_checkout_data/';
@@ -91,6 +88,7 @@ form.addEventListener('submit', function(ev) {
                 $('#loading-overlay').fadeToggle(100);
                 card.update({ 'disabled': false});
                 $('#submit-button').attr('disabled', false);
+                
             } else {
                 if (result.paymentIntent.status === 'succeeded') {
                     form.submit();
