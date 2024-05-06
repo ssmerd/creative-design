@@ -1,8 +1,11 @@
-from django.shortcuts import render, redirect, reverse, get_list_or_404
-from .models import Design, Category
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
-from django.conf import settings
+from django.contrib.auth.decorators import login_required
 from django.db.models import Q
+from django.db.models.functions import Lower
+
+from .models import Design, Category
+from .forms import DesignForm
 
 
 
@@ -37,3 +40,32 @@ def all_designs(request):
     }
 
     return render(request ,"designs/designs.html", context)
+
+
+@login_required
+def add_design(request):
+    """ Add a design to the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    if request.method == 'POST':
+        form = DesignForm(request.POST, request.FILES)
+        if form.is_valid():
+            design = form.save()
+            messages.success(request, 'Successfully added design!')
+            return redirect(reverse('designs'))
+        else:
+            messages.error(request,
+                           ('Failed to add design. '
+                            'Please ensure the form is valid.'))
+    else:
+        form = DesignForm()
+
+    template = 'designs/add_design.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
+

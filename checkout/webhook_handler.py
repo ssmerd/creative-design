@@ -60,7 +60,7 @@ class StripeWH_Handler:
 
         billing_details = stripe_charge.billing_details 
 
-        name = billing_details.name
+        # name = billing_details.name
         email = billing_details.email
         phone = billing_details.phone
         category = quote["category"]
@@ -71,8 +71,9 @@ class StripeWH_Handler:
        
         # Update profile information if save_info was checked
         profile = None
-        if name != 'AnonymousUser':
-            profile = UserProfile.objects.get(user__username=name)
+        username = intent.metadata.username
+        if username != 'AnonymousUser':
+            profile = UserProfile.objects.get(user__username=username)
             if save_info:
                 profile.default_phone = billing_details.phone
                 profile.default_email = billing_details.email
@@ -83,7 +84,7 @@ class StripeWH_Handler:
         while attempt <= 5:
             try:
                 order = Order.objects.get(
-                    name__iexact=name,
+                    name__iexact=username,
                     email__iexact=email,
                     phone__iexact=phone,
                     category__iexact=category,
