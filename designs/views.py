@@ -35,7 +35,6 @@ def all_designs(request):
 
     context = {
         'designs': designs,
-        # 'MEDIA_URL': settings.MEDIA_URL,
         'search_term': query,
     }
 
@@ -69,3 +68,32 @@ def add_design(request):
 
     return render(request, template, context)
 
+@login_required
+def edit_design(request, design_id):
+    """ Edit a design"""
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    design = get_object_or_404(Design, pk=design_id)
+    if request.method == 'POST':
+        form = DesignForm(request.POST, request.FILES, instance=design)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully updated design!')
+            return redirect(reverse('designs'))
+        else:
+            messages.error(request,
+                           ('Failed to update design. '
+                            'Please ensure the form is valid.'))
+    else:
+        form = DesignForm(instance=design)
+        messages.info(request, f'You are editing {design.name}')
+
+    template = 'designs/edit_design.html'
+    context = {
+        'form': form,
+        'design': design,
+    }
+
+    return render(request, template, context)
