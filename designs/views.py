@@ -97,3 +97,16 @@ def edit_design(request, design_id):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def delete_design(request, design_id):
+    """ Delete a product from the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only superusers can do that.')
+        return redirect(reverse('home'))
+
+    design = get_object_or_404(Design, pk=design_id)
+    design.delete()
+    messages.success(request, 'Design deleted!')
+    return redirect(reverse('designs'))
