@@ -45,7 +45,7 @@ def all_designs(request):
 def add_design(request):
     """ Add a design to the store """
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only store owners can do that.')
+        messages.error(request, 'Sorry, only website owners can do that.')
         return redirect(reverse('home'))
 
     if request.method == 'POST':
@@ -72,7 +72,7 @@ def add_design(request):
 def edit_design(request, design_id):
     """ Edit a design"""
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only store owners can do that.')
+        messages.error(request, 'Sorry, only website owners can do that.')
         return redirect(reverse('home'))
 
     design = get_object_or_404(Design, pk=design_id)
