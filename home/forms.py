@@ -1,12 +1,12 @@
 from django import forms
 
-CATEGORIES  = [
+CATEGORIES = [
         ("Graphics", "Graphics"),
         ("Illustrations", "Illustrations"),
         ("Icons", "Icons"),
     ]
          
-DESIGN_SIZES  = [
+DESIGN_SIZES = [
         ("Instagram", "Instagram"),
         ("Facebook", "Facebook"),
         ("X", "X"),
@@ -16,11 +16,13 @@ DESIGN_SIZES  = [
         ("Custom", "Custom"),
     ]
 
+
 class QuoteForm(forms.Form):
-    
-    category = forms.ChoiceField(choices=CATEGORIES) 
+
+    category = forms.ChoiceField(choices=CATEGORIES)
+
     name = forms.CharField(max_length=254)
-    description = forms.CharField(widget=forms.Textarea(),max_length=254)
+    description = forms.CharField(widget=forms.Textarea(), max_length=254)
     size = forms.ChoiceField(choices=DESIGN_SIZES)
 
     def __init__(self, *args, **kwargs):

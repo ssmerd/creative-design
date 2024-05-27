@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.shortcuts import render
 from django.contrib import messages
 from .forms import QuoteForm
 
@@ -11,20 +11,20 @@ def index(request):
     form = QuoteForm()
 
     template = 'home/index.html'
-    
+
     context = {
         'form': form,
     }
 
     return render(request, template, context)
 
+
 def add_quote(request):
 
     if request.method == 'POST':
         form = QuoteForm(request.POST)
         if form.is_valid():
-            quote = form.cleaned_data
-    
+            quote = form.cleaned_data    
             context = {
                 'category': quote['category'],
                 'name': quote['name'],
@@ -45,14 +45,16 @@ def add_quote(request):
         form = QuoteForm()
 
     template = 'home/index.html'
-    
+
     context = {
         'form': form,
     }
 
     return render(request, template, context)
 
+
 def calculate_price(quote):
+
     category = quote['category']
 
     total_price = 0
@@ -60,10 +62,10 @@ def calculate_price(quote):
     if category.upper() == "graphics".upper():
         total_price = total_price + 100
     elif category.upper() == "illustrations".upper():
-        total_price = total_price +  120
+        total_price = total_price + 120
     elif category.upper() == "icons".upper():
-        total_price = total_price +  70
+        total_price = total_price + 70
     elif category.upper() == "graphics".upper():
-        total_price = total_price +  150
+        total_price = total_price + 150
 
     return total_price
