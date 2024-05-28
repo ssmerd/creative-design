@@ -4,6 +4,7 @@ CATEGORIES = [
         ("Graphics", "Graphics"),
         ("Illustrations", "Illustrations"),
         ("Icons", "Icons"),
+        ("Posters", "Posters"),
     ]
          
 DESIGN_SIZES = [
