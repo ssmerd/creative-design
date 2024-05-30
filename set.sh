@@ -4,3 +4,5 @@ export STRIPE_WH_SECRET=whsec_aThFbBbqfco1nXwJ7OoEqLeY9z18VQpk
 export DATABASE_URL=postgres://tfgfvbtw:T2JUhI9DUpIq2NlujO33dxl9vx-YhpRx@tai.db.elephantsql.com/tfgfvbtw
 export SECRET_KEY='django-insecure-dlp@@i(9=nz8$*uxme$+lzxt!k$+s@xx!so^q8d2j!y_u)!=v6'
 export DEVELOPMENT=True
+export EMAIL_HOST_USER=dobiemir@gmail.com
+export EMAIL_HOST_PASS=euvvxjaiyapkxjed
