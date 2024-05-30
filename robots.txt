@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://creativedesign-1a4929c2fa0f.herokuapp.com/sitemap.xml
