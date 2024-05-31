@@ -29,14 +29,14 @@ class StripeWH_Handler:
         
         print("About to call send_email... ")
         print(cust_email)
-        
+
         send_mail(
             subject,
             body,
             settings.DEFAULT_FROM_EMAIL,
             [cust_email]
         )
-         print("Post send_email... ")
+        print("Post send_email... ")
       
 
 
