@@ -149,77 +149,18 @@ There are many individual users and companies that need graphical design in toda
 | 4 | Site User | receive an email confirmation after registration| be notified registration was successful                   |
 | 5 | Site User | have a profile | store my information for faster checkouts in the future |
 | Viewing and navigation ||||
-| 6 | Shopper / Site User | navigate across the site | can access all parts of the site                          |
+| 6 | Site User | navigate across the site | can access all parts of the site                          |
 | 7 | Site User | be notified of my actions | be aware the action was completed successfully or not     |
 | 8 | Site User | see my login status | know if I am logged in or not |
 | 9 | Site User | visit the website| view protfolio |
-| 10 | Site User | view the total cost at any time | so I am aware of what I am buying and it's cost |
-| 22 | Site User | use a card as the payment method | complete my purchase                                      |
-| 26 | Shopper / Site User | receive order confirmation | be notified of a successful order |
-| 27 | Shopper / Site User | receive email confirmation | have a record of my purchase |
+| 10| Site User | can oder a graphical design and pay be a credit card| can order a praphical design of their choice|
+| 11 | Site User | use a card as the payment method | complete my purchase                                      |
+| 12 | Site User | receive order confirmation | be notified of a successful order |
 | Admin and Store Management | | | |
-| 28 | Store Owner / Admin | add a protfolio design | add new designs to the website |
-| 29 | Store Owner / Admin | edit a desig | edit existing designs on the website |
-| 30 | Store Owner / Admin | delete a portfolio design | delete existing portfolio design from the website |
-| 31 | Store Owner / Admin | add a golf club | add a golf club to the site |
-| 32 | Store Owner / Admin | edit a golf club |edit an existing golf club on the site|
-| 33 | Store Owner / Admin | delete a golf club | delete existing golf club from the site |
-| 34 | Store Owner / Admin | add a tee time | add a tee time to a golf club |
-| 35 | Store Owner / Admin | edit a tee time | edit an existing tea time on a golf club |
-| 36 | Store Owner / Admin | delete a tee time | delete a tee time from a golf club |
-| 37 | Shopper / Site User | book a tee time | book a tee time for a golf club |
-| 38 | Shopper / Site User | edit a tee time booking | edit a tee time booking as I alter my schedule to play golf |
-| 39 | Shopper / Site User | delete a tee time booking | delete a tee time booking if I need to cancel |
-| 40 | Shopper / Site User | view my tee time bookings | view my tee time bookings |
+| 13 | Store Owner / Admin | add a protfolio design | add new designs to the website |
+| 14 | Store Owner / Admin | edit a portfolio design | edit existing portfolio designs on the website |
+| 15 | Store Owner / Admin | delete a portfolio design | delete existing portfolio design from the website |
 
-
-### Kanban, Epics & User Stories
-- GitHub Kanban was used to track all open user stories
-- Epics were created using the milestones feature
-- Backlog, In Progress, Done headings were used in the kanban
-
-<details><summary>Epic Overview</summary>
-
-![Epics](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/epics1.PNG)
-</details>
-
-<details><summary>Epic 1</summary>
-
-![Epic 1](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/epics2.PNG)
-</details>
-
-<details><summary>Epic 2</summary>
-
-![Epic 2](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/epics3.PNG)
-</details>
-
-<details><summary>Epic 3</summary>
-
-![Epic 3](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/epics4.PNG)
-</details>
-
-<details><summary>Epic 4</summary>
-
-![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/epics5.PNG)
-</details>
-
-
-
-<details><summary>User Stories</summary>
-
-![User stories](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/user-stories1.PNG)
-![User stories](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/user-stories2.PNG)
-![User stories](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/user-stories3.PNG)
-
-</details>
-
-<details><summary>Kanban</summary>
-
-![Kanban Start](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/kanban-start.PNG)
-![Kanban Middle](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/kanban-mid.PNG)
-![Kanban End](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/agile/kanban-end.PNG)
-
-</details>
 
 
 ##### Back to [top](#table-of-contents)<hr>
