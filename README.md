@@ -17,7 +17,6 @@
      - [Marketing and Sales Strategy](#marketing-and-sales-strategy)
      - [Operations and Management](#operations-and-management)
      - [Financial Plan](#financial-plan)
-     - [Conclusion](#conclusion)
   - [Marketing](#marketing)
      - [Social Media](#social-media)
      - [Mailing List](#mailing-list)
@@ -52,84 +51,70 @@
 ## Business Plan  
 ### Executive Summary:
 
-Teetime is a web-based platform that connects golfers with golf clubs and societies. It offers a convenient and easy-to-use platform for booking tee times, as well as an ecommerce shop for purchasing golf-related products. In addition, Teetime features a blog with the latest news and tips on golf, as well as a contact page for inquiries and support.
+Creative Design is a web-based platform that alows to order a graphical desing online. It offers a convenient and easy-to-use platform for oredring icons, posters, illustrations and other graphical designs. It also shows the current portfolio of different designs.
 
-Our target market is golfers of all skill levels and demographics, as well as golf clubs and societies looking for a streamlined solution for managing bookings and tee times. We aim to differentiate ourselves from competitors by offering a more user-friendly and intuitive platform, as well as a wider range of products in our ecommerce shop.
+In terms of revenue, Creative Design will generate income through the form to order a design where a prospective client can
+describe what they want and get a price automatically. The ready design can be sent to them via email.
 
-In terms of revenue, Teetime will generate income through two main streams: the sale of products in our ecommerce shop and the sale of our software to golf clubs and societies. We will also explore potential partnerships and sponsorships with golf-related brands to further monetize the platform.
-
-Overall, Teetime aims to become the go-to destination for golfers looking to book tee times and purchase golf-related products, as well as a trusted and reliable solution for golf clubs and societies looking to manage their bookings and tee times.
 
 ### Market Analysis:
 
-The golf industry is a multi-billion euro industry, with a large and dedicated consumer base. While traditional methods of booking tee times (such as calling the club or booking in-person) are still popular, there is a growing trend towards online booking platforms. This shift towards online booking presents a significant opportunity for Teetime to establish itself as a leading player in the market.
+The graphical desin industry is a big revenue industry. The client look for graphical design on different sorts that can be purchased quickly. The clients need designs to use them in Facebook, X, Instagram, Snapchat, Pinterest and others.
 
-In terms of competition, Teetime will face other online booking platforms as well as traditional methods of booking. However, we believe that our user-friendly platform and wide range of products in our ecommerce shop will differentiate us from competitors and make us a preferred choice for golfers.
-
-In terms of target market, our primary focus will be on golfers of all skill levels and demographics. We will also target golf clubs and societies as potential customers for our software, as these organizations are constantly seeking ways to streamline their operations and manage bookings.
 
 ### Marketing and Sales Strategy:
 
 Teetime will utilize a combination of online and offline marketing tactics to reach our target market. These tactics will include:
 
 Online advertising through Google AdWords and social media platforms such as Facebook and Instagram
-Content marketing through our blog and email newsletter
-Partnerships and sponsorships with golf-related brands
-Public relations efforts to generate press coverage and raise awareness of Teetime
-In terms of sales, our primary focus will be on converting website visitors into customers through the use of persuasive copy and calls-to-action. We will also explore partnerships with golf clubs and societies to offer our software as a solution for managing bookings and tee times.
+Content marketing through our email newsletter
+
 
 ### Operations and Management:
 
-Teetime will be operated and managed by a small team of experienced professionals. The team will consist of a CEO, CTO, and marketing and sales staff.
+Creative Dsign will be operated and managed by a small team of experienced professionals. The team will consist of mainly graphical design proffesionals.
 
-In terms of operations, we will utilize a cloud-based platform to host the website and software, as well as a payment gateway for processing transactions. We will also utilize third-party fulfillment centers to handle the storage, packing, and shipping of products purchased through our ecommerce shop.
+In terms of operations, we will utilize a cloud-based platform to host the website and software such as Heroku, as well as a payment gateway for processing transactions such as Stripe. 
 
 #### Financial Plan:
 
-Teetime will generate revenue through the sale of products in our ecommerce shop and the sale of our software to golf clubs and societies. In terms of expenses, the main cost will be marketing and advertising efforts to drive traffic to the website and attract customers. We will also incur expenses related to the development.
+Creative Designwill generate revenue through the sale of graphical desing. In terms of expenses, the main cost will be marketing and advertising efforts to drive traffic to the website and attract customers and contracted graphical designers who will create all the designs. We will also incur expenses related to the development.
 
 In terms of financing, Teetime will initially be funded through a combination of personal investment and a small seed round of funding. As the business grows, we will explore additional funding options such as venture capital or a larger round of financing.
 
-In terms of projections, we anticipate strong growth in both revenue streams over the first few years of operation. In the first year, we expect to generate €500,000 in revenue, with €300,000 coming from product sales and €200,000 coming from the sale of our software. In the second year, we expect to see revenue increase to €750,000, with €450,000 coming from product sales and €300,000 coming from software sales. By the third year, we anticipate revenue to reach €1 million, with €600,000 coming from product sales and €400,000 coming from software sales.
+In terms of projections, we anticipate steady growth in a revenue streams. There are many potential users who need graphical desings in today's online world.
 
-In terms of profitability, we expect to break even within the first year of operation and achieve profitability in the second year.
 
-### Conclusion:
 
-Teetime is a unique and innovative platform that aims to connect golfers with golf clubs and societies, while also offering a convenient and user-friendly platform for booking tee times and purchasing golf-related products. With strong growth potential and a clear revenue model, we believe that Teetime has the potential to become a leading player in the golf industry.
 ##### Back to [top](#table-of-contents)<hr>
 
 ## Marketing  
 
 ### Social Media  
-The web app "teetime" has a presence on both Facebook and Instagram. The Facebook page serves as a platform to promote upcoming events, post updates on the latest features, and share user-generated content. The Instagram page primarily focuses on showcasing beautiful golf courses, highlighting new products in the shop, and providing a behind-the-scenes look at the company. These social media accounts allow users to stay informed and connected with the "teetime" community.
 
-[Facebook](https://www.facebook.com/profile.php?id=100088722476900)  
-[Instagram](https://www.instagram.com/teetimegolfapp/)
+The web app CreativeDesign has a presence on Facebook. The Facebook page serves as a platform to promote the website, post updates on the latest features, and share the portfolio. These social media accounts allow users to stay informed and connected with the Creative Design community.
+
+[Facebook]()  
+
 
 ### Mailing List  
 
-Teetime uses Mailchimp to manage its mailing list. By joining the mailing list, users will receive updates on new features, upcoming events, and exclusive promotions. The process to join the mailing list is simple, users just need to provide their email address on the website, and they will start receiving email updates. Mailchimp allows the "teetime" team to segment the mailing list, personalize emails and track the success of email campaigns. By joining the mailing list, users will stay informed and be the first to know about new developments in the "teetime" web app.  
+Creative Desig uses Mailchimp to manage its mailing list. By joining the mailing list, users will receive updates on new features and exclusive promotions. The process to join the mailing list is simple, users just need to provide their email address on the website, and they will start receiving email updates. Mailchimp allows the Creative Design team to segment the mailing list, personalize emails and track the success of email campaigns. By joining the mailing list, users will stay informed and be the first to know about new developments in the Creative Design web app.  
 
-<details><summary>See Image</summary>
 
-![Mailchimp](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-mailing-list-sign-up.PNG)  
-![Email](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/web-marketing/marketing-mailchimp-01.PNG)
-![Email content](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/web-marketing/marketing-mailchimp-02.PNG)
-</details> 
 
 ## User Goals
 
-- To easily and conveniently book tee times at golf clubs and societies
-- To browse and purchase a wide range of golf-related products through the eCommerce shop
-- To access the latest news and tips on golf through the blog
-- To contact the Teetime team with any inquiries or support needs through the contact page
+- To easily and conveniently order graphical designs
+- To browse a portfolio of graphical desings
+- To access the latest newsletter
+
 
 ## Site Owner Goals
 
-- Generate revenue through the sale of products in the ecommerce shop and the sale of software to golf clubs and societies
-- Build a strong and loyal customer base by providing an easy-to-use platform and high-quality products
-- Establish Teetime as a trusted and respected brand in the golf industry
+- Generate revenue through the sale of graphical desings
+- Build a strong and loyal customer base by providing an easy-to-use platform
+- Establish Creative Design as a trusted and respected brand 
 - Achieve profitability and sustain long-term growth
 <hr>
 
@@ -137,20 +122,15 @@ Teetime uses Mailchimp to manage its mailing list. By joining the mailing list, 
 ## User Experience
 
 ### Target Audience
-- Golf enthusiasts who are interested in booking tee times at golf clubs and purchasing golf-related products.
-- Golf clubs and golf societies who may be interested in using the software to manage tee time bookings and potentially purchasing products through the ecommerce shop.
-- Individuals who are looking for information and resources related to golf, as indicated by the presence of a blog on the app.
-- Individuals who are interested in scheduling and organizing golf games or events, as the app allows users to book tee times at golf clubs.
-- Any individual who is interested in purchasing golf-related products through the app's ecommerce shop.
+
+There are many individual users and companies that need graphical design in today's online world. They use them in a plethore of social media platforms. The website allows them to order a design with a few keystrokes and get in on their email.
 
 ### User Requirements and Expectations
 
-- A user-friendly interface: Users will expect the app to be easy to navigate and use, with clear and concise instructions for booking tee times and purchasing products.
+- A user-friendly interface: Users will expect the app to be easy to navigate and use, with clear and concise instructions for ordering a design.
 - Reliability: Users will expect the app to be reliable and function smoothly, without any errors or technical issues.
 - Security: Users will expect their personal and financial information to be secure when using the app, and will expect the app to have appropriate measures in place to protect their data.
-- A wide selection of golf clubs and tee times: Users will expect the app to have a wide selection of golf clubs and tee times available for booking.
-- Accurate and up-to-date information: Users will expect the app to provide accurate and up-to-date information about golf clubs, tee times, and products.
-- Competitive prices: Users will expect the prices for tee times and products to be competitive with other options available on the market.
+- Competitive prices: Users will expect the prices for graphical designs to be competitive with other options available on the market.
 - Good customer service: Users will expect the app to have good customer service, including responsive and helpful support in the event of any issues or questions.
 - Accessibility
 
@@ -163,40 +143,24 @@ Teetime uses Mailchimp to manage its mailing list. By joining the mailing list, 
 | User Story ID                  | As A/AN             | I CAN...                                                | SO THAT I CAN...                                          |
 |--------------------------------|---------------------|---------------------------------------------------------|-----------------------------------------------------------|
 | Registration and User Accounts ||||
-| 1 | Shopper / Site User | register for an account | have an account and view my profile |
-| 2 | Shopper / Site User | login and logout | have an account with my information stored for fast usage |
-| 3 | Shopper / Site User | recover my password | set a new password if I forgot it                         |
-| 4 | Shopper / Site User | receive an email confirmation after registration| be notified registration was successful                   |
-| 5 | Shopper / Site User | have a profile | store my information for faster checkouts in the future |
+| 1 | Site User | register for an account | have an account and view my profile |
+| 2 | Site User | login and logout | have an account with my information stored for fast usage |
+| 3 | Site User | recover my password | set a new password if I forgot it                         |
+| 4 | Site User | receive an email confirmation after registration| be notified registration was successful                   |
+| 5 | Site User | have a profile | store my information for faster checkouts in the future |
 | Viewing and navigation ||||
 | 6 | Shopper / Site User | navigate across the site | can access all parts of the site                          |
-| 7 | Shopper / Site User | use a navbar, footer, and social icons | navigate the site, access menus, and access socials       |
-| 8 | Shopper / Site User | be notified of my actions | be aware the action was completed successfully or not     |
-| 9 | Shopper / Site User | see my login status | know if I am logged in or not |
-| 10 | Shopper / Site User | visit the shop| view all products available |
-| 11 | Shopper / Site User | view my basket and total cost at any time | so I am aware of what I am buying and it's cost |
-| 12 | Shopper / Site User | view a list of products | select a product to purchase                              |
-| 13 | Shopper / Site User | view an individual product details | view a more detailed view of the product |
-| 14 | Shopper / Site User | view a list of golf courses | select a golf course I want to play on |
-| 15 | Shopper / Site User | view individual golf course details | see more detailed information about it |
-| 16 | Shopper / Site User | view a list of tee times available for each golf course | select a date and time to play |
-| Sorting and Searching ||||
-| 17 | Shopper / Site User | search for a product by name or description | find a certain product                                    |
-| 18 | Shopper / Site User | see my search results | only see what I am searching for |
-| 19 | Shopper / Site User | sort by category | select products of a certain category |
-| 20 | Shopper / Site User | sort by price low to high and high to low | view products according to my budget |
-| 21 | Shopper / Site User | select only available dates/times | I can only purchase available tee slots |
-| Purchasing and Checkout ||||
-| 22 | Shopper / Site User | use a card as the payment method | complete my purchase                                      |
-| 23 | Shopper / Site User | select the size and quantity of a product | select a size and quantity to my needs |
-| 24 | Shopper / Site User | view items in my basket | be aware of what I am buying and it's cost |
-| 25 | Shopper / Site User | adjust item quantity in my basket | increase or reduce item count according to my needs |
+| 7 | Site User | be notified of my actions | be aware the action was completed successfully or not     |
+| 8 | Site User | see my login status | know if I am logged in or not |
+| 9 | Site User | visit the website| view protfolio |
+| 10 | Site User | view the total cost at any time | so I am aware of what I am buying and it's cost |
+| 22 | Site User | use a card as the payment method | complete my purchase                                      |
 | 26 | Shopper / Site User | receive order confirmation | be notified of a successful order |
 | 27 | Shopper / Site User | receive email confirmation | have a record of my purchase |
 | Admin and Store Management | | | |
-| 28 | Store Owner / Admin | add a product | add new products to the shop |
-| 29 | Store Owner / Admin | edit a product | edit existing products in the shop |
-| 30 | Store Owner / Admin | delete a product | delete existing products from the shop |
+| 28 | Store Owner / Admin | add a protfolio design | add new designs to the website |
+| 29 | Store Owner / Admin | edit a desig | edit existing designs on the website |
+| 30 | Store Owner / Admin | delete a portfolio design | delete existing portfolio design from the website |
 | 31 | Store Owner / Admin | add a golf club | add a golf club to the site |
 | 32 | Store Owner / Admin | edit a golf club |edit an existing golf club on the site|
 | 33 | Store Owner / Admin | delete a golf club | delete existing golf club from the site |
