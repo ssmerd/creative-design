@@ -173,39 +173,25 @@ I used Balsamiq to create wireframes for my project. It's a user-friendly wirefr
 
 <details><summary>Wireframe Home</summary>  
 
-![Epics](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-home.PNG)
+![Wireframe Home](readme/balsamiq-1.png)
+
 </details>
 
-<details><summary>Wireframe Profile</summary>  
 
-![Epic 1](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-profile.PNG)
-</details>
-
-<details><summary>Wireframe Clubs</summary>  
-
-![Epic 2](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-clubs.PNG)
-</details>
-
-<details><summary>Wireframe Club Detail</summary>  
-
-![Epic 3](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-club-detail-01.PNG)
-![Epic 3](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-club-detail-02.PNG)
-</details>
-
-<details><summary>Wireframe Shop</summary>  
-
-![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-shop.PNG)
-</details>  
-
-<details><summary>Wireframe Product Detail</summary>  
-
-![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-product-detail.PNG)
-</details> 
 
 <details><summary>Wireframe Checkout</summary>  
 
-![Epic 4](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/wireframes/wireframe-checkout.PNG)
-</details>  
+![Wireframe Checkout](readme/balsamiq-2.png)
+
+</details>
+
+
+
+<details><summary>Wireframe Portfolio</summary>  
+
+![Wireframe Home](readme/balsamiq-3.png)
+
+</details>
 
 <hr>
 
@@ -213,49 +199,30 @@ I used Balsamiq to create wireframes for my project. It's a user-friendly wirefr
 
 ### Colors
 
-
-The color I chose was dark green with a light background.  
-<details><summary>See Color Palette</summary>
-
-![Color Palette](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/coolors-teetime.png)
-</details>
+The colours are minimalistic: white, grey and black.
 
 ### Fonts
 
- The font selected was from Google Fonts, Roboto.
+ The font selected was from Google Fonts, Lato.
 
- <details><summary>See Font Image</summary>
-
-![Font Image](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/font-roboto.PNG)
-</details>
 <hr>
 
 # Structure
 
 The site was designed for the user to be familiar with the layout such as a navigation bar along the top of the pages and a hamburger menu button for smaller screen.
 
-The footer contains all relevant social media links that the business has so the user can visit any social media site and follow the business there to expand the businesses followers, likes and shares.
 It contains an email sign up form and useful links as well as contact information.
 
 ## Website pages
 
 - The site consists of the following pages:
-  - Home
-  - Golf Clubs
-  - Golf Club Expanded
-  - Booking List
-  - Edit Booking
-  - Cancel Booking
-  - Product List
-  - Product Expanded
-  - Basket
-  - Checkout
-  - Checkout Success
-  - Blog
-  - Blog expanded
-  - Contact
-  - Register
-  - Profile
+  - Home, Add a Quote
+  - Order Details
+  - Checkout and Payment page
+  - Portfolio pages
+  - Add, edit and delete portfolio pages - Design Management
+  - My Profile pages
+  - List and details of orders
   - Login
   - Logout
   - Reset Password
@@ -269,12 +236,6 @@ It contains an email sign up form and useful links as well as contact informatio
 
 I am using AWS S3 buckets to store my data. S3 is a highly scalable and durable cloud storage service provided by Amazon Web Services. It allows me to easily store and retrieve large amounts of data, and its built-in security features provide added protection for my files. I chose S3 for its scalability, durability, and security features.
 
-<details><summary>See AWS Images</summary>
-
-![aws bucket](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-s3-bucket.PNG)
-![aws media](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-s3-bucket-media.PNG)
-![aws static](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/aws/aws-s3-bucket-static.PNG)
-</details>
 <hr>
 
 
@@ -282,14 +243,11 @@ I am using AWS S3 buckets to store my data. S3 is a highly scalable and durable 
 
 I built my database using PostgreSQL. It's a powerful and open-source object-relational database system that is known for its reliability, robustness, and performance. I chose it because it provides a flexible tool for efficiently managing and organizing my data.
 
-<a href="https://github.com/ArronBeale/CI_PP5_tee_time/raw/main/docs/database/db-schema.pdf" target="_blank">Download Schema PDF</a>  
-<a href="https://docs.google.com/spreadsheets/d/13d5eeCcBG7GWVxWo78qZi8OyIZ10Tu6Ze7brLsul9qo/edit?usp=sharing" target="_blank">Database Schema</a>  
-(Ctrl + click to open in new tab)  
+<details><summary>Erd Diagram</summary>  
 
-<details><summary>See Database Image</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/database/image-db-schema.PNG">
+![Erd Diagram](readme/erd-diagram.png)
+
 </details>
-<hr>
 
 ## Models  
 
