@@ -274,56 +274,19 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
 | ---------- | -------------------- | ------------- |
 | PrimaryKey | user_profile_id      | AutoField     |
 | ForeignKey | user                 | User model    |
-|            | default_phone_number | CharField[20] |
-|            | default_address1     | CharField[80] |
-|            | default_address2     | CharField[80] |
-|            | default_town_city    | CharField[40] |
-|            | default_county       | CharField[80] |
-|            | default_postcode     | CharField[20] |
-|            | default_country      | CharField[40] |
+|            | default_phone        | CharField[20] |
+|            | default_email        | CharField[40] |
 
-### Club Model
 
-| Key        | Name           | Type          |
-| ---------- | -------------- | ------------- |
-| PrimaryKey | club_id        | AutoField     |
-|            | golf_club_name | CharField[50] |
-|            | slug           | SlugField     |
-|            | description    | TextField     |
-|            | available      | BooleanField  |
-|            | image          | ImageField    |
-|            | excerpt        | TextField     |
 
-### Booking Model
-
-| Key        | Name           | Type            |
-| ---------- | -------------- | --------------- |
-| PrimaryKey | booking_id     | AutoField       |
-|            | created_date   | DateTime        |
-|            | requested_date | DateTime        |
-|            | requested_time | CharField[10]   |
-| ForeignKey | golf_club_name | Golf club model |
-| ForeignKey | user           | User model      |
-|            | name           | CharField[50]   |
-|            | email          | EmailField      |
-|            | phone          | PhoneNumField   |
-|            | status         | CharField[50]   |
-|            | players        | Tuple           |
-|            | player_count   | intField        |
-
-### Product Model
+### Design Model
 
 | Key        | Name        | Type           |
 | ---------- | ----------- | -------------- |
 | PrimaryKey | product_id  | AutoField      |
-|            | code        | CharField[50]  |
-|            | brand       | CharField[50]  |
 |            | name        | CharField[50]  |
 |            | description | TextField      |
-|            | has_sizes   | BooleanField   |
-|            | price       | DecimalField   |
 | ForeignKey | category    | Category model |
-|            | rating      | DecimalField   |
 |            | image       | ImageField     |
 
 ### Category Model  
@@ -340,21 +303,15 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
 | ---------- | --------------- | ------------------ |
 | PrimaryKey | order_id        | AutoField          |
 |            | order_number    | CharField[40]      |
+|            | category        | CharField[254]     |
+|            | description     | TextField[254]     |
+|            | size            | CharField[32]      |
 | ForeignKey | user_profile    | User profile Model |
-|            | full_name       | CharField[50]      |
+|            | name            | CharField[50]      |
 |            | email           | EmailField[254]    |
-|            | phone_number    | CharField[20]      |
-|            | address1        | CharField[80]      |
-|            | address2        | CharField[80]      |
-|            | town_city       | CharField[40]      |
-|            | postcode        | CharField[20]      |
-|            | county          | CharField[80]      |
-|            | country         | CharField[40]      |
+|            | phone           | CharField[20]      |
 |            | date            | DateTimeField      |
-|            | delivery_cost   | DecimalField[6]    |
-|            | order_total     | DecimalField[10]   |
-|            | grand_total     | DecimalField[10]   |
-|            | original_basket | TextField          |
+|            | total           | DecimalField[10]   |
 |            | stripe_pid      | CharField          |
 
 ### OrderLineItem Model  
@@ -368,51 +325,9 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
 |            | quantity         | IntegerField    |
 |            | line_item_total  | DecimalField[6] |
 
-### Post Model
-
-| Key        | Name           | Type                |
-| ---------- | -------------- | ------------------- |
-|            | title (unique) | Char[200]           |
-|            | slug (unique)  |                     |
-| PrimaryKey | post_id        | AutoField           |
-| ForeignKey | author         | User model          |
-|            | created_date   | DateTime            |
-|            | updated_date   | DateTime            |
-|            | content        | TextField           |
-|            | featured_image | Cloudinary<br>image |
-|            | excerpt        | TextField           |
-|            | status         | Integer             |
-
-### Comment Model
-
-| Key        | Name         | Type                                   |
-| ---------- | ------------ | -------------------------------------- |
-| ForeignKey | post         | Post model<br>Cascade on<br>delete     |
-|            | name         | CharField[80]                          |
-|            | email        | EmailField                             |
-|            | body         | TextField                              |
-|            | created_date | DateTimeField<br>auto_now_<br>add_true |
-|            | approved     | BooleanField<br>default False          |
-|            |              |                                        |
-|            |              |                                        |
-|            | Meta         | created_on                             |
-
-### ContactUs Model
-
-| Key        | Name         | Type             |
-| ---------- | ------------ | ---------------- |
-| PrimaryKey | message_id   | AutoField        |
-|            | created_date | DateTimeField    |
-| ForeignKey | user         | User model       |
-|            | name         | CharField        |
-|            | email        | EmailField       |
-|            | phone        | PhoneNumberField |
-|            | body         | TextField        |  
 
 ##### Back to [top](#table-of-contents)
 <hr>
-
-
 
 
 
@@ -429,11 +344,9 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
 
 ### Libraries & Tools
 
-- [Am I Responsive](http://ami.responsivedesign.is/)
+- [Am I Responsive](https://ui.dev/amiresponsive/)
 - [Balsamiq](https://balsamiq.com/)
-- [Bootstrap v5.2](https://getbootstrap.com/)
-- [Cloudinary](https://cloudinary.com/)
-- [Favicon.io](https://favicon.io)
+- [Bootstrap v4](https://getbootstrap.com/)
 - [Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/)
 - [Font Awesome](https://fontawesome.com/)
 - [Git](https://git-scm.com/)
@@ -442,8 +355,6 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
 - [Heroku Platform](https://id.heroku.com/login)
 - [AWS](https://aws.amazon.com/)
 - [jQuery](https://jquery.com)
-- [Postgres](https://www.postgresql.org/)
-- [Summernote](https://summernote.org/)
 - Validation:
   - [WC3 Validator](https://validator.w3.org/)
   - [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)
