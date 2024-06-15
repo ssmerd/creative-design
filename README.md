@@ -359,9 +359,7 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
   - [WC3 Validator](https://validator.w3.org/)
   - [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)
   - [JShint](https://jshint.com/)
-  - [CI Python Liner(PEP8)](https://pep8ci.herokuapp.com/)
   - [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
-  - [Wave Validator](https://wave.webaim.org/)
 
 ##### Back to [top](#table-of-contents)
 
@@ -373,225 +371,111 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
 I have used meta tags in the HTML of my web app's pages to optimize them for search engines. The description tag provides a brief summary of the content on the page, while the keywords tag lists relevant keywords to help search engines understand the content of the webpage and its relevance to related search queries.
 
 
-<details><summary>See feature image</summary>
-
-![SEO](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-seo.PNG)
-</details>  
 
 ### Home page
-- Home page includes nav bar, main body and a footer.
+- Home page includes nav bar, main body and a newsletter.
 
 
 <details><summary>See feature images</summary>
 
-![Home page](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-home.PNG)
+![Home page](readme/home.png)
 </details>  
 
-
-### Logo
-- A custom logo for the business.
-- User stories covered: 6, 7
-
-<details><summary>See feature images</summary>
-
-![Logo](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-logo.PNG)
-</details>  
 
 
 ### Navigation
 - Fully Responsive.
 - On small screens switches to hamburger menu.
-- Indicates login/logout in status.
 - displayed on all pages.  
-- User stories covered: 6, 7
 
 <details><summary>See feature images</summary>
 
-![Navigation](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-nav.PNG)
+![Navigation](readme/navigation.png)
 </details>
 
 
-### Footer
-- Contains social media links, privacy policy, and copyright.
-- displayed across all pages.  
-- User stories covered: 6, 7
-
-<details><summary>See feature images</summary>
-
-![Footer](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-footer.PNG)
-</details>  
 
 ### Mailing List Sign Up
 - Mailchimp signup for email mailing list.  
 
 <details><summary>See feature images</summary>
 
-![Mailing](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-mailing-list-sign-up.PNG)
+![Mailing](readme/newsletter.png)
 </details>
 
 
 ### Sign up / Register
 - Allow users to register an acoount.
-- User stories covered: 1  
 
 <details><summary>See feature image</summary>
 
-![Signup](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-sign-up.PNG)
+![Signup](readme/register.png)
 </details>
 
 
 ### Sign In
 - User can sign in.  
-- User stories covered: 2
 
 <details><summary>See feature images</summary>
 
-![Signin](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-sign-in.PNG)
+![Signin](readme/signin.png)
 </details>
 
 
 ### Sign Out
 - Allows the user to securely sign out.
 - Ask user if they are sure they want to sign out.  
-- User stories covered: 2
 
 <details><summary>See feature image</summary>
 
-![Sign out](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-sign-out.PNG)
-</details>  
-
-
-### Golf Clubs
-- Allows the user to view all listed golf clubs.  
-- User stories covered: 14
-
-<details><summary>See feature image</summary>
-
-![Golf Clubs](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-golf-clubs.PNG)
-</details>  
-
-
-### Golf Club Detail
-- Allows the user to view details of a specific golf club.  
-- User stories covered: 15
-
-<details><summary>See feature image</summary>
-
-![Golf Club Detail](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-club-detail.PNG)
-</details>
-
-
-### Book a Tee Time
-- Allows the user to book a tee time.
-- Messages are displayed if the data is not valid such as phone number lenght is too short and the email address is not a valid format.  
-- User stories covered: 37
-
-<details><summary>See feature images</summary>
-
-![Book](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-booking-form.PNG)
-</details>
-
-
-### My Teetimes
-- Allows the user to see their bookings.  
-- User stories covered: 40
-
-<details><summary>See feature image</summary>
-
-![Teetimes](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-booking-list.PNG)
-</details>  
-
-
-### Edit Booking
-- Allows the user to edit their bookings.  
-- User stories covered: 38
-
-<details><summary>See feature image</summary>
-
-![Edit Booking](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-booking-edit.PNG)
-</details>  
-
-
-### Cancel Booking
-- Allows the user to cancel their bookings.  
-- User stories covered: 39
-
-<details><summary>See feature image</summary>
-
-![Cancel Booking](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-booking-cancel.PNG)
+![Sign out](readme/logout.png)
 </details>  
 
 
 ### Alert Box
 - Allows the user to see relevant alerts.  
-- User stories covered: 8
 
 <details><summary>See feature image</summary>
 
-![Edit Booking](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-alert-box.PNG)
+![Alert](readme/alert.png)
 </details>  
 
 
-### Shop
-- Allows the user to view the listed products in the shop.  
-- User stories covered: 10
+### Portfolio design
+- Allows the user to view the listed designs.  
 
 <details><summary>See feature image</summary>
 
-![Shop](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-shop.PNG)
+![Designs](readme/designs.png)
 </details>  
 
-
-### Sort
-- Allows the user to sort the listed products.  
-- User stories covered: 19, 20
-
-<details><summary>See feature images</summary>
-
-![Sort1](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-shop-sort-01.PNG)
-![Sort2](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-shop-sort-02.PNG)
-</details>  
-
-
-### product Detail
-- Allows the user to view the products details.  
-- User stories covered: 13
-
-<details><summary>See feature image</summary>
-
-![product Detail](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-product-detail.PNG)
-</details>  
-
+ 
 
 ### Search
-- Allows the user to search for products.  
-- User stories covered: 17, 18
+- Allows the user to search for designs.  
 
 <details><summary>See feature image</summary>
 
-![Search](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-search.PNG)
+![Search](readme/search.png)
 </details>  
 
 
-### Basket
-- Allows the user to view the basket with their items.
-- Pops up as items are added and removed.  
-- User stories covered: 24, 11
+
+### Quote
+- Allows the user to get a quote.  
 
 <details><summary>See feature image</summary>
 
-![Basket1](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-basket.PNG)
-![Basket2](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-alert-box.PNG)
+![Quote](readme/quote.png)
 </details>  
 
 
 ### Checkout
-- Allows the user to purchase items in their basket.  
-- User stories covered: 22, 23, 24, 25
+- Allows the user to purchase designs  
 
 <details><summary>See feature image</summary>
 
-![Checkout](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-checkout.PNG)
+![Checkout](readme/checkout.png)
 </details>  
 
 
