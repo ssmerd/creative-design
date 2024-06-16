@@ -5,8 +5,7 @@ CATEGORIES = [
         ("Illustrations", "Illustrations"),
         ("Icons", "Icons"),
         ("Posters", "Posters"),
-    ]
-         
+    ]    
 DESIGN_SIZES = [
         ("Instagram", "Instagram"),
         ("Facebook", "Facebook"),

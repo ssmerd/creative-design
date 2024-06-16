@@ -481,131 +481,61 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ### Stripe
 - Allows the user to use stripe for card payments.  
-- User stories covered: 22
+
 
 <details><summary>See feature image</summary>
 
-![Stripe](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-stripe.PNG)
+![Stripe](readme/stripe.png)
 </details>  
 
 
 ### Email Confirmation
 - Allows the user to receive an email confirmation for their order.  
-- User stories covered: 27
 
 <details><summary>See feature image</summary>
 
-![Email Confirmation](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-email-confirmation.PNG)
+![Email Confirmation](readme/confirmation.png)
 </details>  
 
 
 ### Profile
 - Allows the user to update their information and see their order history.  
-- User stories covered: 5
+
 
 <details><summary>See feature image</summary>
 
-![Profile](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-profile.PNG)
+![Profile](readme/profile.png)
 </details>  
 
 
-### Add Product
+### Add Design to the portfolio
 - Allows the Admin to add new products.  
-- User stories covered: 28
 
 <details><summary>See feature image</summary>
 
-![Add Product](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-add-product.PNG)
+![Add Product](readme/add_design.png)
 </details>  
 
 
-### Edit Product
-- Allows the user to edit the products.  
-- User stories covered: 29
+### Edit Design
+- Allows the user to edit the designs.  
 
 <details><summary>See feature image</summary>
 
-![Edit Product](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-edit-product.PNG)
+![Edit Product](readme/edit_design.png)
 </details>  
 
 
-### Delete Product
+### Delete Design
 - Allows the user to delete products, includes confirmation prompt before deletion.  
-- User stories covered: 30
+
 
 <details><summary>See feature image</summary>
 
-![Delete Product](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-delete-product.PNG)
+![Delete Product](readme/delete_design.png)
 </details>  
 
 
-### Blog
-- The blog displays each post made by a staff member
-- Paginations is used to display 4 posts per page  
-- User stories covered: extra feature
-  
-<details><summary>See feature images</summary>
-
-![Blog](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-blog.PNG)
-</details>
-
-
-### Blog Expanded
-- Expands into the selected blog the user wishes to read
-- Displays a featured image uploaded by the poster
-- If no image is uploaded a default image is then used
-- Registerd user can comment on the blog  
-- User stories covered: extra feature
-  
-<details><summary>See feature images</summary>
-
-![Blog Expanded](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-blog-detail.PNG)
-</details>
-
-
-### Comments
-- Comments made are set to pending approval status to ensure nothing bad is displayed
-- Only registered users can comment on a blog post
-- Staff can approve comments via the admin panel on the backend  
-- User stories covered: extra feature
-  
-<details><summary>See feature images</summary>
-
-![Comments](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-blog-comments.PNG)
-</details>
-
-
-### Contact Us / Send Message
-- A contact page with all contact details listed
-- Users can send a message via the message form  
-  
-<details><summary>See feature images</summary>
-
-![Contact Us](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-contact.PNG)
-![Message](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-contact-message.PNG)
-</details>
-
-
-### Social Media Links
-- A logo and link is used for the Facebook business page and Instagram page.
-- All links open in a new tab to ensure the user is not directed away from the business.
-- noopener, noreferrer, nofollow used to communicate with web crawlers and for security and privacy concerns.  
-- User stories covered: 7
-  
-<details><summary>See feature image</summary>
-
-![Social Media Links](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-footer.PNG)
-</details>
-
-
-### Pagination
-- Pagination is used on the
-- Ensures the page is kept tidy  
-  
-<details><summary>See feature images</summary>
-
-![Pagination](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/features/feature-pagination.PNG)
-</details>
 
 
 ##### Back to [top](#table-of-contents)<hr>
@@ -618,315 +548,51 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 
 ### Home  
 
-index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/) 
-- No Errors Found
+index.html [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com) 
+- Two Errors Found
 
 
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
+![Errors](readme/checker.png)
 
+ ### Home, Quote, Checkout, Designs, Add Design, Edit Design, Sign Up, Log in, Log out
 
-### Golf Clubs  
+Home [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com) 
+Quote [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/quote) 
+Checkout [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/checkout) 
+Designs [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/designs) 
+Add design [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/designs/add) 
+Edit design [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/designs/edit/1) 
+Profile [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/profile) 
+SignUp [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/accounts/signup) 
+Log in [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/accounts/login) 
+Log out [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/accounts/logout) 
 
-golf_clubs.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/bookings/golf_clubs) 
-- No Errors Found
 
 
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
+- Two Errors Found in navigation. Not sure what they are as the navigation is taken from the bootstrap documentaiton.
 
 
-### Golf Club Details  
-
-club_expanded.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/bookings/druids-vale/) 
-- No Errors Found
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-
-### My Teetimes  
-
-<details><summary>Booking List</summary>
-
-![booking list](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-booking-list.PNG)
-</details>
-
-- No Errors Found
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-
-### Edit Booking
-
-<details><summary>edit_booking.html</summary>
-
-![booking list](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-edit-booking.PNG)
-</details>
-
-- No Errors Found
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-
-### Cancel Booking
-
-<details><summary>cancel_booking.html</summary>
-
-![booking list](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-cancel-booking.PNG)
-</details>
-
-- No Errors Found
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-
-### Shop  
-
-product_list.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/products/) 
-- No Errors Found
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-
-### Product Detail  
-
-product_detail.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/products/15/) 
-- No Errors Found
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-
-### Add Product
-
-<details><summary>add_product.html</summary>
-
-![add product](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-add-product.PNG)
-</details>
-
-- No Errors Found
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | 
-
-
-### Edit Product
-
-<details><summary>edit_product.html</summary>
-
-![edit product](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-edit-product.PNG)
-</details>
-
-- No Errors Found
-1 Info detected
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | 
-| Info | Edit Product | Trailing slash on void elements has no effect and interacts badly with unquoted attribute values. | Noted| 
-
-
-### Basket  
-
-basket.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/basket/) 
-- No Errors Found
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-
-### Checkout  
-
-checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/checkout/) 
-- No Errors Found
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-
-### Checkout Success  
-
-<details><summary>checkout_success.html</summary>
-
-![checkout success](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-checkout-success.PNG)
-</details>
-
-- No Errors Found
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | 
-
-
-### Profile  
-
-<details><summary>profile.html</summary>
-
-![profile](https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/html/validation-html-profile.PNG)
-</details>
-
-- No Errors Found
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | 
-
-
-### Blog  
-
-blog.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/blog/) 
-- No Errors Found
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-
-### Blog Expand 
-
-blog_expand.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/golf-etiquette/) - 405 Errors Found (Summernote Editor)
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | Blog Expand | CSS / Parse Error | These errors are caused by the Summernote editor and not by code written by the developer of this project. Time constraints did not allow me to resolve these issues at the present time |
-| Warning | N/A | N/A | N/A |  
-
-
-### Contact 
-
-contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/contact/) 
-- No Errors Found
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-
-### Sign In 
-
-login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/login/) 
-- No Errors Found
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-
-### Sign Out  
-
-logout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/logout/) 
-- No Errors Found  
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A | 
-
-
-### Register  
-
-signup.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com/accounts/signup/) 
-- No Errors Found
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-
-### 404  
-
-404.html [results](https://validator.w3.org/nu/?checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fci-pp5-teetime.herokuapp.com%2Faccounts%2F404%2F) 
-- No Errors Found
-
-
-| **Level** | **Feature** | **Issue Description** | **Comment** |
-|-------------|-------------|----------------------|-------------|
-| Error | N/A | N/A | N/A |
-| Warning | N/A | N/A | N/A |  
-
-##### Back to [top](#table-of-contents)<hr>  
-
+![Errors](readme/checker.png)
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 
-<details><summary>base.css</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/css/validation-base-css.PNG">
-</details> 
+base.css [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcreativedesign-1a4929c2fa0f.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
 
-<details><summary>profile.css</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/css/validation-base-css.PNG">
-</details>  
+profile.css [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcreativedesign-1a4929c2fa0f.herokuapp.com%2Fprofile%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
 
-<details><summary>checkout.css</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/css/validation-checkout-css.PNG">
-</details><hr>
+checkout.css [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcreativedesign-1a4929c2fa0f.herokuapp.com%2Fprofile%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
+
 
 ### JavaScript Validation
 JSHint javaScript Validation Service was used to validate all javaScript files.
 
 <details><summary>stripe_elements.js</summary>  
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/js/validation-js-stripe-elements.PNG">
+<img src="readme/jshint_stripe.png">
 </details>  
 
-- one undefined variable Stripe which originates from a external script
+- some undefined variable Stripe which originates from a external script
 
-<details><summary>checkout.js</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/js/validation-js-checkout.PNG">
-</details>  
-
-- one undefined variable Stripe which originates from a external script
-
-<details><summary>country_field.js</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/js/validation-js-country-field.PNG">
-</details>
-
-- No issues raised  
 
 ##### Back to [top](#table-of-contents)<hr>  
 
@@ -934,10 +600,10 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 [CI Python Linter](https://pep8ci.herokuapp.com/) was used to check the code for PEP8 requirements.
 
 
-<summary>Basket</summary>
+<summary>Home</summary>
 
-<details><summary>contexts.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-basket-contexts.PNG">
+<details><summary>forms.py</summary>
+<img src="readme/home_forms.png">
 </details>
 
 <details><summary>basket_tools.py</summary>
