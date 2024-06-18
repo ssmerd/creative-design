@@ -28,7 +28,8 @@ DEBUG = 'DEVELOPMENT' in os.environ
 
 # ALLOWED_HOSTS = ['8000-ssmerd-creative-design-x7k6aq2t1k.us1.codeanyapp.com']
 
-ALLOWED_HOSTS = ['creativedesign-1a4929c2fa0f.herokuapp.com', '8000-ssmerd-creative-design-x7k6aq2t1k.us1.codeanyapp.com']
+ALLOWED_HOSTS = ['creativedesign-1a4929c2fa0f.herokuapp.com',
+                 '8000-ssmerd-creative-design-x7k6aq2t1k.us1.codeanyapp.com']
 
 # Application definition
 
@@ -79,12 +80,12 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
             ],
-            'builtins' :[
+            'builtins':[
                 'crispy_forms.templatetags.crispy_forms_tags',
                 'crispy_forms.templatetags.crispy_forms_field'
             ]
@@ -209,8 +210,6 @@ STRIPE_CURRENCY = 'eur'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
-
-
 
 if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

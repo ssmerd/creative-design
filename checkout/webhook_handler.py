@@ -26,9 +26,6 @@ class StripeWH_Handler:
         body = render_to_string(
             'checkout/confirmation_emails/confirmation_email_body.txt',
             {'order': order, 'contact_email': settings.DEFAULT_FROM_EMAIL})
-        
-        print("About to call send_email... ")
-        print(cust_email)
 
         send_mail(
             subject,
@@ -37,8 +34,6 @@ class StripeWH_Handler:
             [cust_email]
         )
         print("Post send_email... ")
-      
-
 
     def handle_event(self, event):
         """
@@ -53,7 +48,7 @@ class StripeWH_Handler:
         Handle the payment_intent.succeeded webhook from Stripe
         """
         intent = event.data.object
-        
+
         pid = intent.id
         save_info = intent.metadata.save_info
         quote = json.loads(intent.metadata.quote)
@@ -64,7 +59,7 @@ class StripeWH_Handler:
             intent.latest_charge
         )
 
-        billing_details = stripe_charge.billing_details 
+        billing_details = stripe_charge.billing_details
 
         # name = billing_details.name
         email = billing_details.email
@@ -72,9 +67,8 @@ class StripeWH_Handler:
         category = quote["category"]
         description = quote["description"]
         size = quote["size"]
-        total = round(stripe_charge.amount / 100, 2) 
+        total = round(stripe_charge.amount / 100, 2)
 
-       
         # Update profile information if save_info was checked
         profile = None
         username = intent.metadata.username
@@ -123,7 +117,8 @@ class StripeWH_Handler:
                     size=size,
                     total=total,
                     stripe_pid=pid
-                )             
+                )
+
             except Exception as e:
                 if order:
                     order.delete()

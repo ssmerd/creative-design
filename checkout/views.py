@@ -37,14 +37,14 @@ def checkout(request):
     stripe_secret_key = settings.STRIPE_SECRET_KEY
 
     if request.method == 'POST':
-        quote = request.session.get('quote', {}) 
+
+        quote = request.session.get('quote', {})
 
         form_data = {
             'name': request.POST['name'],
             'email': request.POST['email'],
             'phone': request.POST['phone'],
         }
-        
         order_form = OrderForm(form_data)
         if order_form.is_valid():
             order = order_form.save(commit=False)
@@ -64,7 +64,9 @@ def checkout(request):
             messages.error(request, ('There was an error with your form. '
                                      'Please double check your information.'))
     else:
-        quote = request.session.get('quote', {}) 
+
+        quote = request.session.get('quote', {})
+
         if not quote:
             messages.error(request,
                            "There's no quote at the moment")
@@ -76,7 +78,7 @@ def checkout(request):
             amount=stripe_total,
             currency=settings.STRIPE_CURRENCY,
         )
-        
+
         order_form = OrderForm()
 
         # Attempt to prefill the form with any info
@@ -127,9 +129,10 @@ def checkout_success(request, order_number):
         # Save the user's info
         if save_info:
             profile_data = {
-                'default_email': order.email, 
-                'default_phone': order.phone,               
+                'default_email': order.email,
+                'default_phone': order.phone,
             }
+
             user_profile_form = UserProfileForm(profile_data, instance=profile)
             if user_profile_form.is_valid():
                 user_profile_form.save()

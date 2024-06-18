@@ -614,109 +614,75 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 <summary>Designs</summary>
 
 <details><summary>forms.py</summary>
-<img src="readme/designs_forms.py">
+<img src="readme/designs_forms.png">
 </details>
 
 <details><summary>models.py</summary>
-<img src="readme/designs_models.py">
+<img src="readme/designs_models.png">
 </details>
 
 <details><summary>views.py</summary>
-<img src="readme/designs_views.py">
+<img src="readme/designs_views.png">
+</details>
+
+<hr>
+<summary>Profiles</summary>
+
+<details><summary>forms.py</summary>
+<img src="readme/profiles_forms.png">
+</details>
+
+<details><summary>models.py</summary>
+<img src="readme/profiles_models.png">
+</details>
+
+<details><summary>views.py</summary>
+<img src="readme/profiles_views.png">
+</details>
+
+<hr>
+<summary>Checkout</summary>
+
+<details><summary>forms.py</summary>
+<img src="readme/checkout_forms.png">
+</details>
+
+<details><summary>models.py</summary>
+<img src="readme/checkout_models.png">
+</details>
+
+<details><summary>views.py</summary>
+<img src="readme/checkout_views.png">
+</details>
+
+<details><summary>webhook_handler.py</summary>
+<img src="readme/checkout_webhook_handler.png">
+</details>
+
+<details><summary>webhooks.py</summary>
+<img src="readme/checkout_webhooks.png">
+</details>
+
+<hr>
+<summary>Creative Design</summary>
+
+<details><summary>views.py</summary>
+<img src="readme/creative_design_views.png">
+</details>
+
+<details><summary>settings.py</summary>
+<img src="readme/creative_design_settings.png">
+</details>
+
+<hr>
+<summary>Others</summary>
+
+<details><summary>custom_storages.py</summary>
+<img src="readme/custom_storages.png">
 </details>
 
 ##### Back to [top](#table-of-contents)<hr>  
 
-## Accessibility  
-The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was used to ensure the website met high accessibility standards.  
-- All pages returned 0 errors.  
-- All alerts presented were for redundant links whichweres taken into account duringdevelopmentt.
-
-<details><summary>Home</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-home.PNG">
-</details>  
-
-<details><summary>Golf Clubs</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-golf-clubs.PNG">
-</details>  
-
-<details><summary>Club Expand</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-club-expand.PNG">
-</details>  
-
-<details><summary>Booking List</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-booking-list.PNG">
-</details>  
-
-<details><summary>Edit Booking</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-edit-booking.PNG">
-</details>  
-
-<details><summary>Cancel Booking</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-cancel-booking.PNG">
-</details>  
-
-<details><summary>Product List</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-product-list.PNG">
-</details>  
-
-<details><summary>Product Expand</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-product-expand.PNG">
-</details>  
-
-<details><summary>Add Product</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-add-product.PNG">
-</details>  
-
-<details><summary>Edit Product</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-edit-product.PNG">
-</details>  
-
-<details><summary>Basket</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-basket.PNG">
-</details>  
-
-<details><summary>Checkout</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-checkout.PNG">
-</details>  
-
-<details><summary>Checkout Success</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-checkout-success.PNG">
-</details>  
-
-<details><summary>Blog</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-blog.PNG">
-</details>  
-
-<details><summary>Blog Expand</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-blog-expand.PNG">
-</details>  
-
-<details><summary>Contact</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-contact.PNG">
-</details>  
-
-<details><summary>Profile</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-profile.PNG">
-</details>  
-
-<details><summary>Sign Up</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-sign-up.PNG">
-</details>  
-
-<details><summary>Sign In</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-sign-in.PNG">
-</details>  
-
-<details><summary>Sign Out</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-log-out.PNG">
-</details>  
-
-<details><summary>404</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/accessibility/accessibility-wave-404.PNG">
-</details>  
-
-##### Back to [top](#table-of-contents)<hr>  
 
 ## Lighthouse
 
@@ -724,83 +690,53 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 #### Desktop
 <details><summary>Home</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-home.PNG">
+<img src="readme/lighthouse_home.png">
 </details>
 
 <details><summary>Sign Up</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-sign-up.PNG">
+<img src="readme/lighthouse_signup.png">
 </details>
 
 <details><summary>Sign In</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-login.PNG">
+<img src="readme/lighthouse_signin.png">
 </details>
 
 <details><summary>Sign Out</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-logout.PNG">
+<img src="readme/lighthouse_signout.png">
 </details>
 
-<details><summary>Golf Clubs</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-golf-clubs.PNG">
-</details>
-
-<details><summary>Club Expand</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-club-expand.PNG">
-</details>
-
-<details><summary>Booking List</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-booking-list.PNG">
-</details>
-
-<details><summary>Edit Booking</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-edit-booking.PNG">
-</details>
-
-<details><summary>Cancel Booking</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-cancel-booking.PNG">
-</details>
-
-<details><summary>Product List</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-product-list.PNG">
-</details>
-
-<details><summary>Product Expand</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-product-expand.PNG">
-</details>  
-
-<details><summary>Add Product</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-add-product.PNG">
-</details>  
-
-<details><summary>Edit Product</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-edit-product.PNG">
-</details>  
-
-<details><summary>Basket</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-basket.PNG">
-</details>  
+<details><summary>Quote</summary>
+<img src="readme/lighthouse_quote.png">
+</details> 
 
 <details><summary>Checkout</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-checkout.PNG">
-</details>  
+<img src="readme/lighthouse_checkout.png">
+</details>
 
 <details><summary>Checkout Success</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-checkout-success.PNG">
+<img src="readme/lighthouse_checkout_success.png">
 </details>  
 
-<details><summary>Blog</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-blog.PNG">
+<details><summary>Designs</summary>
+<img src="readme/lighthouse_designs.png">
+</details>
+
+<details><summary>Add Design</summary>
+<img src="readme/lighthouse_add_design.png">
 </details>  
 
-<details><summary>Blog Expand</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-blog-expand.PNG">
-</details>  
-
-<details><summary>Contact</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-contact.PNG">
+<details><summary>Edit Design</summary>
+<img src="readme/lighthouse_edit_design.png">
 </details>  
 
 <details><summary>Profile</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/lighthouse/lighthouse-desktop-profile.PNG">
+<img src="readme/lighthouse_edit_design.png">
+</details> 
+
+
+
+<details><summary>Profile</summary>
+<img src="readme/lighthouse_profile.png">
 </details>  
 
 ##### Back to [top](#table-of-contents)<hr>
