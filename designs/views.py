@@ -8,7 +8,6 @@ from .models import Design, Category
 from .forms import DesignForm
 
 
-
 def all_designs(request):
     """
         A view to show all designs
@@ -37,8 +36,7 @@ def all_designs(request):
         'designs': designs,
         'search_term': query,
     }
-
-    return render(request ,"designs/designs.html", context)
+    return render(request, "designs/designs.html", context)
 
 
 @login_required
@@ -67,6 +65,7 @@ def add_design(request):
     }
 
     return render(request, template, context)
+
 
 @login_required
 def edit_design(request, design_id):

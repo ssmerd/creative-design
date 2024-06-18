@@ -24,7 +24,7 @@ def add_quote(request):
     if request.method == 'POST':
         form = QuoteForm(request.POST)
         if form.is_valid():
-            quote = form.cleaned_data    
+            quote = form.cleaned_data
             context = {
                 'category': quote['category'],
                 'name': quote['name'],

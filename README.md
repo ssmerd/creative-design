@@ -606,243 +606,24 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 <img src="readme/home_forms.png">
 </details>
 
-<details><summary>basket_tools.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-basket-tools.PNG">
-</details>
-
 <details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-basket-views.PNG">
+<img src="readme/home_views.png">
 </details>
 
-<details><summary>test_views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-basket-test-views.PNG">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-basket-urls.PNG">
-</details>
-
-<hr><summary>Blog</summary>
-
-<details><summary>Admin.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-blog-admin.PNG">
-</details>
+<hr>
+<summary>Designs</summary>
 
 <details><summary>forms.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-blog-forms.PNG">
+<img src="readme/designs_forms.py">
 </details>
 
 <details><summary>models.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-blog-models.PNG">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-blog-urls.PNG">
+<img src="readme/designs_models.py">
 </details>
 
 <details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-blog-views.PNG">
+<img src="readme/designs_views.py">
 </details>
-
-<hr><summary>Bookings</summary>
-
-<details><summary>Admin.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-bookings-admin.PNG">
-</details>
-
-<details><summary>forms.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-bookings-forms.PNG">
-</details>
-
-<details><summary>models.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-bookings-models.PNG">
-</details>
-
-<details><summary>test_models.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-bookings-test-models.PNG">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-bookings-urls.PNG">
-</details>
-
-<details><summary>test_urls.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-bookings-test-urls.PNG">
-</details>
-
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-bookings-views.PNG">
-</details>
-
-<details><summary>test_views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-bookings-test-views.PNG">
-</details>
-
-<hr><summary>checkout</summary>
-
-<details><summary>Admin.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-admin.PNG">
-</details>
-
-<details><summary>forms.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-forms.PNG">
-</details>  
-
-<details><summary>test-forms.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-test-forms.PNG">
-</details>
-
-<details><summary>models.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-models.PNG">
-</details>
-
-<details><summary>test-models.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-test-models.PNG">
-</details>
-
-<details><summary>signals.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-signals.PNG">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-urls.PNG">
-</details>
-
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-views.PNG">
-</details>  
-
-<details><summary>test_views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-test-views.PNG">
-</details>  
-
-<details><summary>webhook_handler.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-webhook-handler.PNG">
-</details>  
-
-<details><summary>webhook.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-checkout-webhooks.PNG">
-</details>  
-
-<hr><summary>contact</summary>
-
-<details><summary>Admin.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-admin.PNG">
-</details>
-
-<details><summary>forms.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-forms.PNG">
-</details>
-
-<details><summary>test-forms.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-test-forms.PNG">
-</details>
-
-<details><summary>models.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-models.PNG">
-</details>
-
-<details><summary>test_models.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-test-models.PNG">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-urls.PNG">
-</details>
-
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-contact-views.PNG">
-</details>
-
-<hr><summary>home</summary>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-home-urls.PNG">
-</details>
-
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-home-views.PNG">
-</details>
-
-<hr><summary>products</summary>
-
-<details><summary>Admin.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-products-admin.PNG">
-</details>
-
-<details><summary>forms.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-products-admin.PNG">
-</details>
-
-<details><summary>models.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-products-models.PNG">
-</details>
-
-<details><summary>test-models.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-products-test-models.PNG">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-products-urls.PNG">
-</details>
-
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-products-views.PNG">
-</details>  
-
-<details><summary>test-views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-products-test-views.PNG">
-</details>  
-
-<details><summary>widgets.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-products-widgets.PNG">
-</details>
-
-<hr><summary>profiles</summary>
-
-<details><summary>forms.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-profiles-forms.PNG">
-</details>
-
-<details><summary>models.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-profiles-models.PNG">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-profiles-urls.PNG">
-</details>
-
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-profiles-views.PNG">
-</details>  
-
-<hr><summary>teetime</summary>
-
-<details><summary>asgi.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-teetime-asgi.PNG">
-</details>
-
-<details><summary>settings.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-teetime-settings.PNG">
-</details>
-
-<details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-teetime-urls.PNG">
-</details>
-
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-teetime-views.PNG">
-</details>  
-
-<details><summary>wsgi.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-teetime-wsgi.PNG">
-</details>
-
-<hr><summary>root</summary>
-
-<details><summary>custom_storages.py</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP5_tee_time/main/docs/validation/py/validation-root-custom-storages.PNG">
-</details>  
 
 ##### Back to [top](#table-of-contents)<hr>  
 

@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Category(models.Model):
 
     class Meta:
@@ -18,7 +19,6 @@ class Category(models.Model):
 class Design(models.Model):
     category = models.ForeignKey('Category', null=True, blank=True,
                                  on_delete=models.SET_NULL)
-    
     name = models.CharField(max_length=254)
     description = models.TextField()
     image = models.ImageField(null=True, blank=True)
