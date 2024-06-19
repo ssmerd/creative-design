@@ -208,7 +208,7 @@ The colours are minimalistic: white, grey and black.
 
 The site was designed for the user to be familiar with the layout such as a navigation bar along the top of the pages and a hamburger menu button for smaller screen.
 
-It contains an email sign up form and useful links as well as contact information.
+It contains an email sign up form and a facebook link.
 
 ## Website pages
 
