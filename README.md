@@ -153,7 +153,7 @@ There are many individual users and companies that need graphical design in toda
 | 7 | Site User | be notified of my actions | be aware the action was completed successfully or not     |
 | 8 | Site User | see my login status | know if I am logged in or not |
 | 9 | Site User | visit the website| view protfolio |
-| 10| Site User | can oder a graphical design and pay be a credit card| can order a praphical design of their choice|
+| 10| Site User | can oder a graphical design and pay be a credit card| can order a graphical design of their choice|
 | 11 | Site User | use a card as the payment method | complete my purchase                                      |
 | 12 | Site User | receive order confirmation | be notified of a successful order |
 | Admin and Store Management | | | |
@@ -167,9 +167,6 @@ There are many individual users and companies that need graphical design in toda
 
 ## Wireframes
 I used Balsamiq to create wireframes for my project. It's a user-friendly wireframing tool that enables me to quickly and easily create mockups for my website or application. It offers a wide range of pre-built UI elements, and allows for easy collaboration with my team. I linked a pdf of my wireframes, which you can access it and check it out the design, layout and the flow of the project before implementing it in the real product.  
-
-<a href="https://github.com/ArronBeale/CI_PP5_tee_time/raw/main/docs/wireframes/wireframes-teetime.pdf" target="_blank">Download Wireframes PDF</a>  
-(Ctrl + click to open in new tab)  
 
 <details><summary>Wireframe Home</summary>  
 
