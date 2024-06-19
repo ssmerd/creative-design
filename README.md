@@ -59,12 +59,12 @@ describe what they want and get a price automatically. The ready design can be s
 
 ### Market Analysis:
 
-The graphical desin industry is a big revenue industry. The client look for graphical design on different sorts that can be purchased quickly. The clients need designs to use them in Facebook, X, Instagram, Snapchat, Pinterest and others.
+The graphical desin industry is a big revenue industry. The client look for graphical design of different sorts that can be purchased quickly. The clients need designs to use them in Facebook, X, Instagram, Snapchat, Pinterest and others.
 
 
 ### Marketing and Sales Strategy:
 
-Teetime will utilize a combination of online and offline marketing tactics to reach our target market. These tactics will include:
+Creative Design will utilize a combination of online and offline marketing tactics to reach our target market. These tactics will include:
 
 Online advertising through Google AdWords and social media platforms such as Facebook and Instagram
 Content marketing through our email newsletter
@@ -72,15 +72,15 @@ Content marketing through our email newsletter
 
 ### Operations and Management:
 
-Creative Dsign will be operated and managed by a small team of experienced professionals. The team will consist of mainly graphical design proffesionals.
+Creative Design will be operated and managed by a small team of experienced professionals. The team will consist of mainly graphical design proffesionals.
 
 In terms of operations, we will utilize a cloud-based platform to host the website and software such as Heroku, as well as a payment gateway for processing transactions such as Stripe. 
 
 #### Financial Plan:
 
-Creative Designwill generate revenue through the sale of graphical desing. In terms of expenses, the main cost will be marketing and advertising efforts to drive traffic to the website and attract customers and contracted graphical designers who will create all the designs. We will also incur expenses related to the development.
+Creative Design will generate revenue through the sale of graphical desing. In terms of expenses, the main cost will be marketing and advertising efforts to drive traffic to the website and attract customers and contracted graphical designers who will create all the designs. We will also incur expenses related to the development.
 
-In terms of financing, Teetime will initially be funded through a combination of personal investment and a small seed round of funding. As the business grows, we will explore additional funding options such as venture capital or a larger round of financing.
+In terms of financing, Creative Design will initially be funded through a combination of personal investment and a small seed round of funding. As the business grows, we will explore additional funding options such as venture capital or a larger round of financing.
 
 In terms of projections, we anticipate steady growth in a revenue streams. There are many potential users who need graphical desings in today's online world.
 
