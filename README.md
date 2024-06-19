@@ -534,26 +534,30 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 The W3C Markup Validation Service was used to validate the HTML of the website.  
 
-### Home  
-
-index.html [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com) 
-- Two Errors Found
-
-
 ![Errors](readme/checker.png)
 
  ### Home, Quote, Checkout, Designs, Add Design, Edit Design, Sign Up, Log in, Log out
 
 Home [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com) 
+
 Quote [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/quote) 
+
 Checkout [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/checkout) 
+
 Designs [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/designs) 
+
 Add design [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/designs/add) 
+
 Edit design [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/designs/edit/1) 
+
 Profile [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/profile) 
+
 SignUp [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/accounts/signup) 
+
 Log in [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/accounts/login) 
+
 Log out [results](https://validator.w3.org/nu/?doc=https://creativedesign-1a4929c2fa0f.herokuapp.com/accounts/logout) 
+
 
 
 
@@ -861,7 +865,10 @@ Manual testing User Stories
 | ------- | ------- |
 
 | Emails not being sent after signing up | SSL issue and CodeInstitute helped me by adding the runtime.txt file with contents python-3.9.19|
+
 | Order confirmation email not being sent | I couldn't fix that. I used Codeinstitute support and they didn't help me|
+
+| HTML errors in the navigation panel | Not sure why they are reported as the HTML code comes from bootstrap |
 
 
 ##### Back to [top](#table-of-contents)<hr>
@@ -965,13 +972,13 @@ You can clone the repository by following these steps:
 - Code Institute Slack community for guidance on many of my bug fixes.
 
 ### Media
-[Pexels](https://unsplash.com/)
+[Unsplash](https://unsplash.com/)
 
 ##### Back to [top](#table-of-contents)<hr>
 
 ## Acknowledgements
 
 ### Special thanks to the following:
-- My Mentor Mo Shami for his excellent guidance and valuable advice  
+- My mentor Mo Shami for his excellent guidance and valuable advice  
 - Code Institute Slack Community
 - Code Institute Tutor Support
