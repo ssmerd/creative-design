@@ -311,16 +311,7 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
 |            | total           | DecimalField[10]   |
 |            | stripe_pid      | CharField          |
 
-### OrderLineItem Model  
 
-| Key        | Name             | Type            |
-| ---------- | ---------------- | --------------- |
-| PrimaryKey | OrderLineItem_id | AutoField       |
-| ForeignKey | order            | Order Model     |
-| ForeignKey | product          | Product Model   |
-|            | product_size     | CharField[2]    |
-|            | quantity         | IntegerField    |
-|            | line_item_total  | DecimalField[6] |
 
 
 ##### Back to [top](#table-of-contents)
