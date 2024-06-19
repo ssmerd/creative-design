@@ -123,7 +123,7 @@ Creative Desig uses Mailchimp to manage its mailing list. By joining the mailing
 
 ### Target Audience
 
-There are many individual users and companies that need graphical design in today's online world. They use them in a plethore of social media platforms. The website allows them to order a design with a few keystrokes and get in on their email.
+There are many individual users and companies that need graphical design in today's online world. They use them in a plethora of social media platforms. The website allows them to order a design with a few keystrokes and get in on their email.
 
 ### User Requirements and Expectations
 
